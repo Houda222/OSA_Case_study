@@ -1,0 +1,949 @@
+﻿Patient;Comentarios;Audios tumbado;Fotos;Audio fs KHz;Gender;EPWORTH;IAH;IAH Supino;IAH Lateral;Peso;Talla;IMC;Edad;PerCervical;Fumador;Roncador;Enfermedades;Sala/Ruidos;Imagen;Dialecto;DIST EXT OJOS;DIST BARB-LOB;Cansancio;Concentrarse;PerdRespNoche;HiperT;EstHOSP
+P0001;"es el Patient0002 (fotos) 3 (sentado) y 4 (tumbado) original,
+ el uno era una prueba y 
+se ha quitado";si;si;16;hombre;;71;-1;-1;82;168;-1;39;-1;ns;ns;Septo_Nasal_Desviado;nd;nd;nd;;;;;;;
+P0002;Es el Patient0006 (sentado) y 7 (tumbado);si;si;16;hombre;;29,6;-1;-1;119;174;-1;56;48;si;ns;nd;nd;nd;nd;;;;;;;
+P0003;Patient 8, 9 y 10;si;si;16;hombre;;56;-1;-1;-1;-1;-1;46;43;si;ns;nd;nd;nd;nd;;;;;;;
+P0004;Patient 13 y 14;si_codigos;si;16;hombre;;19,7;-1;-1;78;168;-1;39;42;no;ns;Hiperactividad_bronquial;nd;nd;nd;;;;;;;
+P0005;Patient0015 los códigos QMH5;si_codigos;si;16;hombre;;9;-1;-1;80;173;-1;32;40;no;ns;Septo_Nasal_Desviado_Operado;nd;nd;nd;;;;;;;
+P0006;QMH6;si_codigos;si;16;hombre;;2;-1;-1;109;190;-1;32;42;no;ns;Hipertrofia_cornetes_nasales;nd;nd;nd;;;;;;;
+P0007;QMH7;si_codigos;si;16;hombre;;34;-1;-1;86;169;-1;39;42;no;ns;Cornetes;nd;nd;nd;;;;;;;
+P0008;QMH8;si_codigos;si;16;hombre;;60;-1;-1;145;172;-1;47;44;no;ns;Rinitis;nd;nd;nd;;;;;;;
+P0009;QMH9;si_codigos;si;16;hombre;;22;-1;-1;72;165;-1;40;42;no;ns;Rinitis crónica;nd;nd;nd;;;;;;;
+P0010;QMH10;si_codigos;si;16;hombre;;11;-1;-1;80;180;-1;28;38;no;ns;no;nd;nd;nd;;;;;;;
+P0011;QMH13;si_codigos;si;16;hombre;;14,2;-1;-1;90;182;-1;29;-1;si;ns;no;nd;nd;nd;;;;;;;
+P0012;QMH14;si_codigos;si;16;hombre;;10;-1;-1;69;169;-1;48;-1;no;ns;no;nd;nd;nd;;;;;;;
+P0013;QMH19;NO_UNAREP;si;16;hombre;;3,7;-1;-1;90;180;-1;36;40;ns;ns;ns;nd;nd;nd;;;;;;;
+P0014;QMH20;NO_UNAREP;si;16;mujer;;7;-1;-1;50;158;-1;50;35;si;ns;Sinusitis;nd;nd;andaluz;;;;;;;
+P0015;QMH21;SI_UNAREP;si;16;mujer;;5;-1;-1;55;156;-1;62;38;si;ns;no;aire;nd;andaluz;;;;;;;
+P0016;QMH22;SI_UNAREP;si;16;hombre;;26;-1;-1;95;166;-1;77;46;no;ns;Asma;aire;nd;andaluz;;;;;;;
+P0017;QMH23;NO_UNAREP;si;16;hombre;;22;-1;-1;88;173;-1;56;46;no;ns;Bronquitis cronica;aire;nd;andaluz;;;;;;;
+P0018;QMH24;NO_UNAREP;si;16;mujer;;10;-1;-1;90;158;-1;60;39;ns;ns;Tiroides;aire;nd;frances;;;;;;;
+P0019;QMH26;NO_UNAREP;si;16;mujer;;15;-1;-1;65;152;-1;59;36;antiguo;ns;Papiloma paladar;aire;nd;andaluz;;;;;;;
+P0020;QMH28;NO_UNAREP;si;16;hombre;;4,3;-1;-1;89;171;-1;44;45;si;ns;no;aire/personas;nd;andaluz;;;;;;;
+P0021;QMH29;NO_UNAREP;si;16;mujer;;20;-1;-1;63;169;-1;32;32,5;no;ns;Bocio;aire;nd;andaluz;;;;;;;
+P0022;QMH30;NO_UNAREP;si;16;hombre;;56;-1;-1;113;177;-1;33;46;no;ns;Bronquitis cronica;aire;nd;andaluz;;;;;;;
+P0023;QMH33;NO_UNAREP;si;16;mujer;;4;-1;-1;60;162;-1;53;33;no;ns;Asma;aire;nd;andaluz;;;;;;;
+P0024;QMH34;NO_UNAREP;si;16;hombre;;53,6;-1;-1;107;170;-1;48;46;si;ns;Asma;no;nd;andaluz;;;;;;;
+P0025;QMH35;NO_UNAREP;si;16;hombre;;2,1;-1;-1;70;174;-1;53;38;si;ns;no;aire;nd;andaluz;;;;;;;
+P0026;QMH36;NO_UNAREP;si;16;hombre;;27;-1;-1;77;178;-1;33;42;no;ns;no;aire;nd;andaluz;;;;;;;
+P0027;QMH37;NO_UNAREP;si;16;hombre;12;47;-1;-1;100;180;-1;62;48;no;ns;no;aire;nd;andaluz;;;;;;;
+P0028;QMH38;NO_UNAREP;no;16;mujer;;5,9;-1;-1;74;155;-1;53;38;no;ns;Asma;aire;nd;andaluz;;;;;;;
+P0029;QMH39;NO_UNAREP;si;55/16;hombre;;9;-1;-1;93;185;-1;44;41;no;ns;"Septo_Nasal_Desviado_Operado
+Hiperactividad branquial";ruidos;nd;andaluz/dificultad leer;;;;;;;
+P0030;QMH40;NO_UNAREP;si;55/16;hombre;;32;Severo > 30;-1;105;185;-1;70;47;antiguo;ns;no;ruidos;nd;andaluz;;;;;;;
+P0031;QMH41;NO_UNAREP;si;55/16;mujer;;11;-1;-1;68;161;-1;53;37;si;ns;nodulos en cuerdas;habla;nd;andaluz;;;;;;;
+P0032;QMH42;NO_UNAREP;si;55/16;hombre;;24,6;-1;-1;91;174;-1;39;42;antiguo;ns;no;no;nd;andaluz;;;;;;;
+P0033;QMH43;NO_UNAREP;si;55/16;hombre;;14,8;-1;-1;80;172;-1;62;42;antiguo;ns;"Bronquitis cronica
+Hiperactividad bronquial";no;nd;andaluz-venezonlano;;;;;;;
+P0034;QMH44;NO_UNAREP;si;55/16;hombre;;17;-1;-1;84;167;-1;63;42;no;ns;Diabetico;no;nd;andaluz-problemas al grabar;;;;;;;
+P0035;QMH45;NO_UNAREP;si;55/16;hombre;;31,5;-1;-1;110;182;-1;32;46;no;ns;no;no;camara portatil;andaluz;;;;;;;
+P0036;QMH49;NO_UNAREP;si;55/16;hombre;;43;-1;-1;115;182;-1;39;50;si;ns;no;no;nd;andaluz-chasquidos;;;;;;;
+P0037;QMH51;NO_UNAREP;si;55/16;hombre;;12,8;-1;-1;83;169;-1;56;40;no;ns;no;no;nd;andaluz;;;;;;;
+P0038;QMH52;NO_UNAREP;si;55/16;hombre;;37,3;-1;-1;90;168;-1;41;43;si;ns;no;no;nd;andaluz;;;;;;;
+P0039;QMH53;NO_UNAREP;si;55/16;mujer;;3;-1;-1;72;171;-1;40;37;si;ns;operada amigdalitis;no;pelo;andaluz;;;;;;;
+P0040;QMH54;NO_UNAREP;si;55/16;mujer;;19,3;-1;-1;72;168;-1;57;39;si;ns;"abique desviado. Velo del paladar largo. Sindrome de Sjogren (esta relacionado con las glandulas exocrinas, sintomas: sequedad en traquea,laringe,..)
+Rinitis alérgicas(fiebre de heno).";no;nd;andaluz;;;;;;;
+P0041;QMH55;NO_UNAREP;si;55/16;hombre;;34;-1;-1;93;175;-1;59;42;no;ns;no;no;nd;andaluz;;;;;;;
+P0042;QMH57;NO_UNAREP;si;55/16;hombre;;46,3;-1;-1;110;179;-1;33;44;si;ns;"Septo_Nasal_Desviado
+Posibiles pólipos nariz (cuesta respirar)";no;nd;andaluz;;;;;;;
+P0043;QMH58;NO_UNAREP;si;55/16;hombre;;33,1;-1;-1;125;173;-1;48;47;no;ns;no;otra habitación;otra habitación;andaluz;;;;;;;
+P0044;QMH59;NO_UNAREP;si;55/16;hombre;;43,1;-1;-1;72;175;-1;44;39;no;ns;Faringitis de repetición;no;nd;andaluz/ciego-algunas frases mal leidas;;;;;;;
+P0045;QMH60;NO_UNAREP;si;55/16;hombre;;27;-1;-1;90;175;-1;36;40;antiguo;ns;"Septo_Nasal_Desviado
+Operado de amigdalitis";no;nd;andaluz;;;;;;;
+P0046;QMH62;NO_UNAREP;si;55/16;mujer;;0;<5 descartada SAHS;-1;68;156;-1;60;42;si;ns;no;no;nd;andaluz/afonia y voz rota;;;;;;;
+P0047;QMH63;NO_UNAREP;si;55/16;hombre;;28;-1;-1;92;169;-1;39;44;si;ns;no;tele;nd;andaluz/problemas ajuste micro;;;;;;;
+P0048;QMH64;NO_UNAREP;si;55/16;hombre;;28,3;-1;-1;93;160;-1;65;46;no;ns;no;tele;nd;andaluz/padre del QMH64;;;;;;;
+P0049;QMH65;NO_UNAREP;si;55/16;hombre;;32;-1;-1;67;168;-1;49;36;no;ns;no;no;nd;andaluz;;;;;;;
+P0050;QMH66;NO_UNAREP;si;55/16;hombre;9;3;-1;-1;90;187;-1;62;41;antiguo;ns;no;otra habitación;otra habitación;castellano-extremeño/glitches en la grabación;;;;;;;
+P0051;QMH68;NO_UNAREP;si;55/16;hombre;;69;-1;-1;100;172;-1;49;42;antiguo;ns;no;no;nd;andaluz/castellano;;;;;;;
+P0052;QMH69;NO_UNAREP;si;55/16;mujer;;32;>30 Severo;-1;97;168;-1;61;42;antiguo;ns;Hipotiroidismo/acatarrada;no;nd;andaluz/acatarrada;;;;;;;
+P0053;QMH70;NO_UNAREP;si;55/16;hombre;;38,6;-1;-1;82;178;-1;47;43;si;ns;no;no;nd;andaluz/madrid;;;;;;;
+P0054;QMH73;NO_UNAREP;si;55/16;hombre;;31;-1;-1;74;175;-1;50;38;si;ns;no;no;camara portatil;andaluz;;;;;;;
+P0055;QMH74;NO_UNAREP;si;55/16;hombre;;36;-1;-1;98;175;-1;42;44;si;ns;no;no;nd;búlgaro-español;;;;;;;
+P0056;QMH75;NO_UNAREP;si;55/16;hombre;;34;-1;-1;78;175;-1;60;37;no;ns;Hiperactividad bronquial;no;nd;andaluz;;;;;;;
+P0057;QMH76;NO_UNAREP;si;55/16;hombre;;2;-1;-1;75;179;-1;37;38;no;ns;Vegetaciones;no;nd;andaluz;;;;;;;
+P0058;QMH77;NO_UNAREP;si;55/16;hombre;;5;-1;-1;75;169;-1;51;39;no;ns;Septo_Nasal_Desviado;no;nd;andaluz/cuesta respirar;;;;;;;
+P0059;QMH78;NO_UNAREP;si;55/16;hombre;8;24;-1;-1;109;180;-1;54;44;no;ns;no;no;nd;andaluz/ruidos al final de la frase;;;;;;;
+P0060;QMH79;NO_UNAREP;si;55/16;hombre;13;13,7;-1;-1;110;171;-1;33;43;si;ns;no;no;nd;andaluz/resfriado;;;;;;;
+P0061;QMH80;NO_UNAREP;si;55/16;hombre;;40;-1;-1;90;168;-1;72;45;no;ns;Septo_Nasal_Desviado;no;nd;andaluz/cuesta respirar;;;;;;;
+P0062;QMH81;NO_UNAREP;si;55/16;hombre;12;9,7;-1;-1;94;178;-1;32;40;si;ns;Septo_Nasal_Desviado;no;nd;andaluz/cuesta leer;;;;;;;
+P0063;QMH82;NO_UNAREP;si;55/16;mujer;;10;-1;-1;85;166;-1;46;41;no;ns;Hiperactividad bronquial;otra habitación;otra habitación;andaluz;;;;;;;
+P0064;QMH83;NO_UNAREP;si;55/16;hombre;;0;<5 se descarta;-1;75;180;-1;48;41;no;ns;no;no;nd;andaluz;;;;;;;
+P0065;QMH84;NO_UNAREP;si;55/16;hombre;;11,3;-1;-1;90;170;-1;57;46;si;ns;no;no;nd;andaluz;;;;;;;
+P0066;QMH85;NO_UNAREP;si;55/16;hombre;;4,2;-1;-1;92;188;-1;41;42;no;ns;Septo_Nasal_Desviado;no;nd;andaluz;;;;;;;
+P0067;QMH86;NO_UNAREP;si;55/16;hombre;12;30;-1;-1;87;174;-1;47;47;si;ns;Hiperactividad bronquial;no;nd;andaluz;;;;;;;
+P0068;QMH87;NO_UNAREP;si;55/16;hombre;;36,3;-1;-1;105;187;-1;71;47;no;ns;no;no;nd;andaluz/catalán;;;;;;;
+P0069;QMH88;NO_UNAREP;si;55/16;mujer;12;11;-1;-1;91;155;-1;50;38;si;ns;nodulos en cuerdas;no;nd;andaluz/afonia, ronquera y resfriada;;;;;;;
+P0070;QMH89;NO_UNAREP;si;55/16;mujer;11;5,8;-1;-1;63;164;-1;43;38;si;ns;nodulos en cuerdas;no;nd;andaluz/afonia, ronquera y resfriada;;;;;;;
+P0071;QMH90;NO_UNAREP;si;55/16;hombre;;6;-1;-1;80;176;-1;40;40;no;ns;Operado de amigdalitis;no;nd;andaluz;;;;;;;
+P0072;QMH92;NO_UNAREP;si;55/16;mujer;;7,9;-1;-1;63;155;-1;60;34;si;ns;"Hiperactividad bronquial
+Pólipos en la epiglotis";no;nd;andaluz;;;;;;;
+P0073;QMH94;NO_UNAREP;si;55/16;mujer;;3,8;-1;-1;80;164;-1;51;38;antiguo;ns;"Septo_Nasal_Desviado
+Faringitis de repetición";no;nd;andaluz/voz afónica;;;;;;;
+P0074;QMH96;NO_UNAREP;si;55/16;hombre;;42,3;-1;-1;106;174;-1;51;48;no;ns;no;no;nd;andaluz;;;;;;;
+P0075;QMH97;NO_UNAREP;si;55/16;hombre;;15,5;-1;-1;86;173;-1;59;45;antiguo;ns;no;no;nd;andaluz/voz afónica;;;;;;;
+P0076;QMH99;NO_UNAREP;si;55/16;hombre;;35;-1;-1;86;170;-1;63;42;no;ns;no;no;nd;andaluz;;;;;;;
+P0077;QMH100;NO_UNAREP;si;55/16;hombre;;3,3;-1;-1;110;191;-1;29;46;no;ns;"Septo_Nasal_Desviado
+Vegetaciones";no;nd;andaluz/voz nasal;;;;;;;
+P0078;QMH101;NO_UNAREP;si;55/16;hombre;;27;-1;-1;80;176;-1;34;41;antiguo;ns;Hipertrofia amigdala;no;nd;andaluz/problemas con las vocales sostenidas;;;;;;;
+P0079;QMH102;NO_UNAREP;si;55/16;hombre;;9;-1;-1;81;175;-1;50;-1;no;ns;no;no;nd;andaluz;;;;;;;
+P0080;QMH104;NO_UNAREP;si;55/16;hombre;;22;-1;-1;76;170;-1;44;40;si;ns;no;no;nd;andaluz/resfriado;;;;;;;
+P0081;QMH105;NO_UNAREP;si;55/16;mujer;;2,5;-1;-1;74;158;-1;51;35;si;ns;no;no;nd;andaluz;;;;;;;
+P0082;QMH106;NO_UNAREP;si;55/16;hombre;;3;<5;-1;86;170;-1;61;44;antiguo;ns;Operado de amigdalitis;no;nd;andaluz;;;;;;;
+P0083;QMH107;NO_UNAREP;si;55/16;hombre;;8,4;-1;-1;93;183;-1;42;43;no;ns;no;no;nd;andaluz;;;;;;;
+P0084;QMH108;NO_UNAREP;si;55/16;hombre;;11,8;-1;-1;86;172;-1;53;42;no;ns;Septo_Nasal_Desviado;no;nd;andaluz;;;;;;;
+P0085;QMH109;NO_UNAREP;si;55/16;hombre;;43,36;-1;-1;95;178;-1;36;41;no;ns;Septo_Nasal_Desviado;no;nd;andaluz;;;;;;;
+P0086;QMH110;NO_UNAREP;si;55/16;hombre;;6,4;-1;-1;71;170;-1;60;41;antiguo;ns;Septo_Nasal_Desviado;no;nd;andaluz;;;;;;;
+P0087;QMH111;NO_UNAREP;si;55/16;hombre;;1,2;-1;-1;87;170;-1;50;44;no;ns;Septo_Nasal_Desviado;no;nd;colombiano;;;;;;;
+P0088;QMH113;NO_UNAREP;si;55/16;hombre;;6,3;-1;-1;73;175;-1;33;36;no;ns;no;no;nd;andaluz/un poco resfriado;;;;;;;
+P0089;QMH114;NO_UNAREP;si;55/16;hombre;;30;-1;-1;78;159;-1;60;42;antiguo;ns;Bronquitis crónica;no;nd;andaluz;;;;;;;
+P0090;QMH115;NO_UNAREP;si;55/16;hombre;;9,5;-1;-1;84;170;-1;39;38;no;ns;Hipertrofia de cornete;voces;nd;andaluz;;;;;;;
+P0091;QMH116;NO_UNAREP;si;55/16;hombre;;5,4;-1;-1;87;187;-1;34;39;si;ns;Septo_Nasal_Desviado;no;nd;argentino/un poco resfriado;;;;;;;
+P0092;QMH117;NO_UNAREP;si;55/16;hombre;;3;<5;-1;80;170;-1;56;45;si;ns;Efisema;no;nd;andaluz/ruidos al final de la frase;;;;;;;
+P0093;QMH118;NO_UNAREP;si;55/16;mujer;;11;-1;-1;66;165;-1;52;38;no;ns;no;voces;nd;andaluz;;;;;;;
+P0094;QMH119;NO_UNAREP;si;55/16;hombre;;17,3;-1;-1;94;171;-1;67;47;no;ns;no;no;nd;andaluz/respiracion;;;;;;;
+P0095;QMH120;NO_UNAREP;si;55/16;mujer;;8,8;-1;-1;70;159;-1;67;38;no;ns;no;voces;nd;andaluz;;;;;;;
+P0096;QMH121;NO_UNAREP;si;55/16;hombre;;5;-1;-1;70;169;-1;34;41;no;ns;"Septo_Nasal_Desviado
+Sinusitis";no;nd;andaluz/respiracion;;;;;;;
+P0097;QMH122;NO_UNAREP;si;55/16;hombre;;2,2;-1;-1;101;163;-1;65;46;antiguo;ns;no;no;nd;andaluz/respiracion;;;;;;;
+P0098;QMH123;NO_UNAREP;si;55/16;mujer;;6,3;-1;-1;52;158;-1;34;33;no;ns;Cornetes;no;nd;andaluz/respiracion;;;;;;;
+P0099;QMH124;NO_UNAREP;si;55/16;mujer;;9,5;-1;-1;70;160;-1;47;36;antiguo;ns;Septo_Nasal_Desviado;ruidos;nd;andaluz;;;;;;;
+P0100;QMH125;NO_UNAREP;si;55/16;hombre;;10,9;-1;-1;86;170;-1;59;42;antiguo;ns;Septo_Nasal_Desviado;no;nd;andaluz/respiracion;;;;;;;
+P0101;QMH126;NO_UNAREP;si;55/16;mujer;;6,5;-1;-1;83;156;-1;49;42;no;ns;no;aire;nd;andaluz/Málaga;;;;;;;
+P0102;QMH127;NO_UNAREP;si;55/16;hombre;;14,5;-1;-1;125;181;-1;38;46;si;ns;"Septo_Nasal_Desviado
+Operado de amigdalitis
+Bronquitis";voces;nd;andaluz/Alicante-Granada;;;;;;;
+P0103;QMH128;NO_UNAREP;si;55/16;hombre;;8,7;-1;-1;102;163;-1;50;46;antiguo;ns;Operado de amigdalitis;no;nd;andaluz/Málaga;;;;;;;
+P0104;QMH129;NO_UNAREP;si;55/16;hombre;;9,6;-1;-1;87;170;-1;41;42;no;ns;"Septo_Nasal_Desviado_Operado
+Cornetes";no;nd;andaluz/Málaga;;;;;;;
+P0105;QMH130;NO_UNAREP;si;55/16;hombre;;23,7;-1;-1;100;170;-1;50;44;no;ns;Operado de amigdalitis;no;nd;andaluz/Córdoba;;;;;;;
+P0106;QMH131;NO_UNAREP;si;55/16;hombre;;87;-1;-1;120;180;-1;39;52;no;ns;no;no;nd;andaluz/Málaga;;;;;;;
+P0107;QMH132;NO_UNAREP;si;55/16;hombre;;8,4;-1;-1;78;173;-1;38;42;no;ns;Alergia Broncoespasmos;no;nd;andaluz/Málaga/respiración;;;;;;;
+P0108;QMH133;NO_UNAREP;si;55/16;hombre;;23,3;-1;-1;84;165;-1;56;42;antiguo;ns;no;no;camara portatil;andaluz/Málaga;;;;;;;
+P0109;QMH134;NO_UNAREP;si;55/16;hombre;;3,4;-1;-1;86;184;-1;37;40;no;ns;no;no;nd;andaluz/Málaga/habla_antes/respiración;;;;;;;
+P0110;QMH135;NO_UNAREP;si;55/16;hombre;;5;-1;-1;100;174;-1;37;42;no;ns;Septo_Nasal_Desviado;no;nd;andaluz/Málaga/respiración;;;;;;;
+P0111;QMH136;NO_UNAREP;si;55/16;hombre;;24,3;-1;-1;85;178;-1;62;43;no;ns;Cornetes;no;nd;andaluz/Málaga;;;;;;;
+P0112;QMH137;NO_UNAREP;si;55/16;hombre;;60;-1;-1;140;182;-1;54;53;no;ns;Septo_Nasal_Desviado;no;nd;andaluz/Málaga;;;;;;;
+P0113;QMH138;NO_UNAREP;si;55/16;hombre;;12,1;-1;-1;115;180;-1;21;45;si;ns;"Septo_Nasal_Desviado
+Operado pólipos nasales";no;nd;andaluz/Málaga/respiración;;;;;;;
+P0114;QMH139 dice haber sido grabado antes;NO_UNAREP;si;55/16;hombre;;7,4;-1;-1;81;176;-1;34;40;no;ns;Operado de amigdalitis;no;nd;andaluz/Málaga;;;;;;;
+P0115;QMH140;NO_UNAREP;si;55/16;hombre;;70;-1;-1;161;180;-1;49;52;no;ns;Operado de amigdalitis;no;nd;andaluz/Málaga/respiración;;;;;;;
+P0116;QMH142;NO_UNAREP;si;55/16;hombre;;5,4;-1;-1;92;180;-1;46;43;no;ns;no;no;nd;andaluz/Málaga/respiración;;;;;;;
+P0117;QMH143;NO_UNAREP;si;55/16;hombre;;10,9;-1;-1;75;170;-1;47;37;no;ns;Operado de vegetaciones;no;nd;andaluz/Málaga;;;;;;;
+P0118;QMH144;NO_UNAREP;si;55/16;hombre;;11,6;-1;-1;65;180;-1;59;44;antiguo;ns;Operado de amigdalitis;no;nd;Valencia;;;;;;;
+P0119;QMH145;NO_UNAREP;si;55/16;mujer;;2,1;-1;-1;65;170;-1;35;33;no;ns;Cornetes;no;nd;andaluz/Málaga;;;;;;;
+P0120;QMH146;NO_UNAREP;si;55/16;hombre;;44,7;-1;-1;91;177;-1;32;42;si;ns;Septo_Nasal_Desviado;otra habitación;otra habitación;andaluz/Cádiz;;;;;;;
+P0121;QMH147;NO_UNAREP;si;55/16;hombre;;1,4;-1;-1;80;187;-1;46;41;no;ns;no;ruidos;nd;andaluz/Málaga;;;;;;;
+P0122;QMH148;NO_UNAREP;si;55/16;mujer;;3,7;-1;-1;83;165;-1;33;35;antiguo;ns;no;ruidos;nd;andaluz/Málaga/resfriado;;;;;;;
+P0123;QMH149;NO_UNAREP;si;55/16;hombre;;11,3;-1;-1;96;172;-1;42;47;si;ns;Operado de amigdalitis;ruidos;nd;andaluz/Málaga (Sevillano);;;;;;;
+P0124;QMH150;NO_UNAREP;si;55/16;mujer;;8,3;-1;-1;73;167;-1;34;37;si;ns;no;ruidos;nd;andaluz/Málaga/resfriado;;;;;;;
+P0125;"Patient0273
+saltado inicialmente por eso
+es un númerto no consecutivo de Patient
+QMH209";NO_UNAREP;si;55/16;hombre;;4,8;-1;-1;86;166;-1;38;40;antiguo;si;no;voces;nd;andaluz/Málaga;;;;;;;
+P0126;QMH151;NO_UNAREP;si;55/16;hombre;;52,3;-1;-1;110;176;-1;35;47;si;ns;no;no;nd;andaluz/Málaga;;;;;;;
+P0127;QMH152;NO_UNAREP;si;55/16;hombre;;20;-1;-1;78;174;-1;41;39;no;ns;no;no;camara portatil;andaluz/Málaga;;;;;;;
+P0128;QMH153;NO_UNAREP;si;55/16;hombre;;30;-1;-1;74;165;-1;58;41;no;ns;Pólipos nasales;no;nd;Asturias/intensidad_baja;;;;;;;
+P0129;QMH154;NO_UNAREP;si;55/16;hombre;;25,8;-1;-1;115;178;-1;37;45;no;ns;"Septo_Nasal_Desviado
+Operado de amigdalitis
+Bronquitis
+Asma";voces;otra habitación;andaluz/Málaga;;;;;;;
+P0130;QMH155;NO_UNAREP;si;55/16;hombre;;3,4;-1;-1;83;176;-1;38;40;no;ns;no;otra habitación;otra habitación;andaluz/Málaga;;;;;;;
+P0131;QMH156;NO_UNAREP;si;55/16;mujer;;35;-1;-1;94;156;-1;38;39;no;ns;no;ruidos;nd;andaluz/Málaga;;;;;;;
+P0132;QMH157;NO_UNAREP;si;55/16;hombre;;3;-1;-1;105;180;-1;25;43;si;ns;no;no;nd;andaluz/Málaga;;;;;;;
+P0133;QMH158;NO_UNAREP;si;55/16;mujer;;10,6;-1;-1;85;154;-1;66;40;no;ns;Propensa bronquitis aguda;ruidos;otra habitación;andaluz/Málaga/lectura;;;;;;;
+P0134;QMH159;NO_UNAREP;si;55/16;hombre;;8,4;-1;-1;82;177;-1;71;43;antiguo;ns;Bronquitis;no;nd;Italiano/ruido_aire;;;;;;;
+P0135;QMH160;NO_UNAREP;si;55/16;hombre;;0;se descarta;-1;108;186;-1;31;42;antiguo;ns;Septo_Nasal_Desviado;no;nd;andaluz/Málaga;;;;;;;
+P0136;QMH161;NO_UNAREP;si;55/16;hombre;;6,5;-1;-1;79;180;-1;46;41;no;ns;"Septo_Nasal_Desviado_operado
+Operado de amigdalitis
+Operado_Cornetes
+Asma";no;nd;andaluz/Málaga;;;;;;;
+P0137;QMH162;NO_UNAREP;si;55/16;hombre;;28;-1;-1;120;179;-1;61;48;no;ns;Bronquitis / dificultad nariz;no;nd;andaluz/Málaga-PaísVasco-otros sitios/toma_aire;;;;;;;
+P0138;QMH163;NO_UNAREP;si;55/16;mujer;;7,2;-1;-1;68;170;-1;42;35;no;si;no;no;nd;andaluz/Málaga/respiración;;;;;;;
+P0139;QMH164;NO_UNAREP;si;55/16;hombre;;29;-1;-1;121;173;-1;39;47;no;ns;"Neumonía bilateral, tromboembolismo pulmonar.""
+Desde hace 15 meses con corticoides, produciendole un incremento de su peso habitual en unos 40kg";ruidos;nd;Salamanca;;;;;;;
+P0140;QMH165;NO_UNAREP;si;55/16;hombre;;19,4;-1;-1;96;180;-1;40;41;antiguo;ns;"Operado amigdalitis
+Operado_Cornetes
+tiene que volverse a operar";ruidos;nd;Canarias;;;;;;;
+P0141;QMH166;NO_UNAREP;si;55/16;hombre;;1,1;2;-1;88;183;-1;37;42;no;ns;no;no;nd;andaluz/Málaga (poco acento);;;;;;;
+P0142;QMH167;NO_UNAREP;si;55/16;hombre;;8,4;14,9;-1;79;186;-1;32;38;no;ns;"Operado amigdalitis
+Operado vegetaciones";otra habitación;otra habitación;andaluz/Málaga/resfriado;;;;;;;
+P0143;QMH168;NO_UNAREP;si;55/16;hombre;;24,7;58,3;-1;104;180;-1;48;44;no;ns;Renitis crónica;ruidos;nd;andaluz/Málaga;;;;;;;
+P0144;QMH171;NO_UNAREP;si;55/16;mujer;;32,3;-1;-1;72;153;-1;55;35;no;ns;"Padece bronquitis
+Operado de amigdalitis
+Padece sinusitis";ruidos;nd;andaluz/Málaga;;;;;;;
+P0145;QMH172;NO_UNAREP;si;55/16;hombre;;16,4;24,8;-1;90;181;-1;35;39;no;ns;"Septo_Nasal_Desviado_operado
+Amígdalas grandes
+Alergia: garganta y naríz irritadas
+Dificultad respirar por la nariz
+Asma";no;nd;andaluz/Málaga;;;;;;;
+P0146;QMH173;NO_UNAREP;si;55/16;hombre;;2,4;-1;-1;95;174;-1;32;42;no;ns;"Septo_Nasal_Desviado
+Pólipos hipertróficos
+Faringitis crónica";ruidos;otra habitación;andaluz/Málaga;;;;;;;
+P0147;QMH175;NO_UNAREP;si;55/16;hombre;;20,4;41,3;15,3;98;160;-1;47;44;no;ns;no;ruidos;otra habitación;andaluz/Córdoba;;;;;;;
+P0148;QMH176;NO_UNAREP;si;55/16;mujer;;0;se descarta SAHS;-1;64;163;-1;31;35;no;ns;"Operada de vegetaciones
+Tabique nasal muy pequeño
+Padece de arritmia cardíaca y le cuesta respirar
+Propensa a la ronquera";ruidos;otra habitación;andaluz/Málaga;;;;;;;
+P0149;QMH177;NO_UNAREP;si;55/16;mujer;;35,7;-1;-1;90;153;-1;55;37;si;ns;no;voces;nd;andaluz/Málaga/Mala pronunciación y grabación;;;;;;;
+P0150;QMH178;NO_UNAREP;si;55/16;mujer;;7,3;-1;-1;74;163;-1;55;36;no;ns;Operado de amigdalitis;ruidos;nd;andaluz/Málaga/Mala pronunciación y grabación;;;;;;;
+P0151;QMH179;NO_UNAREP;si;55/16;hombre;12;15,4;-1;-1;96;166;-1;58;47;antiguo;ns;no;ruidos;nd;andaluz/Málaga/Mala pronunciación y grabación;;;;;;;
+P0152;QMH181;NO_UNAREP;si;55/16;hombre;12;8,8;-1;-1;80;176;-1;36;41;no;ns;no;no;nd;Salamanca;;;;;;;
+P0153;QMH182 / Patient0246;NO_UNAREP;si;55/16;mujer;;8;15;3;62;148;-1;66;36;no;ns;no;voces;nd;andaluz/Málaga/Huelva;;;;;;;
+P0154;QMH183;NO_UNAREP;si;55/16;hombre;;46,5;-1;-1;162;176;-1;40;47;si;ns;no;ruidos;nd;andaluz/Melilla;;;;;;;
+P0155;QMH185;NO_UNAREP;si;55/16;mujer;;20,8;43;12,3;63;166;-1;48;37;no;si;"Operado amigdalitis
+Cornetes_inflamados";ruidos;nd;andaluz/Málaga/respiración;;;;;;;
+P0156;QMH186;NO_UNAREP;si;55/16;hombre;;38,3;45,9;31,2;95;185;-1;41;44;si;si;Operado amigdalitis;otra habitación;nd;andaluz/Málaga;;;;;;;
+P0157;QMH187;NO_UNAREP;si;55/16;hombre;;0;se descarta SAHS;-1;70;168;-1;32;35;no;si;"Septo_Nasal_Desviado
+Operado de amigdalitis
+Operado de vegetaciones";otra habitación/ruidos;nd;Álava;;;;;;;
+P0158;QMH188;NO_UNAREP;si;55/16;hombre;;35,1;58,9;11,6;84;170;-1;54;42;si;si;no;otra habitación;nd;andaluz/Málaga;;;;;;;
+P0159;QMH189;NO_UNAREP;si;55/16;mujer;14;20;-1;-1;77;167;-1;55;39;no;si;no;otra habitación;nd;andaluz/Málaga;;;;;;;
+P0160;QMH190;NO_UNAREP;si;55/16;hombre;;4;-1;-1;93;162;-1;49;44;no;si;no;otra habitación/ruidos;nd;andaluz/Málaga;;;;;;;
+P0161;QMH191;NO_UNAREP;si;55/16;hombre;;15,2;20;0;78;168;-1;47;40;no;si;Operado de Cornetes;otra habitación;perfil ;andaluz/Málaga/control_volumen_prisas;;;;;;;
+P0162;QMH192;NO_UNAREP;si;55/16;hombre;;4;12,7;3,3;101;174;-1;43;44;antiguo;si;Cornetes;otra habitación;nd;andaluz/Málaga;;;;;;;
+P0163;QMH193;NO_UNAREP;si;55/16;mujer;;0,7;-1;-1;101;170;-1;26;37;no;no;Asma;aire;nd;andaluz/Málaga;;;;;;;
+P0164;QMH194;NO_UNAREP;si;55/16;hombre;;1,4;0,6;1,4;111;184;-1;35;44;si;si;no;aire;perfil ;andaluz/Málaga;;;;;;;
+P0165;QMH195;NO_UNAREP;si;55/16;hombre;;29;-1;-1;78;162;-1;66;41;no;si;Operado amigdalitis;aire;nd;andaluz/Málaga;;;;;;;
+P0166;QMH196;NO_UNAREP;si;55/16;hombre;;14,3;46,8;9,9;100;178;-1;59;46;no;si;Renitis crónica;aire;nd;andaluz/Málaga;;;;;;;
+P0167;QMH197;NO_UNAREP;si;55/16;mujer;;13,1;-1;-1;105;160;-1;58;40;antiguo;si;"Hiper-reactividad bronquial
+Faringitis crónica
+Asma
+Operada de amígdalitis";aire;nd;andaluz/Málaga;;;;;;;
+P0168;QMH198;NO_UNAREP;si;55/16;hombre;;3,6;-1;-1;80;178;-1;29;38;no;si;Operado vegetaciones;aire;nd;andaluz/Málaga;;;;;;;
+P0169;QMH199;NO_UNAREP;si;55/16;mujer;;5,9;-1;-1;67;160;-1;64;37;no;ns;"Septo_Nasal_Desviado
+Operado de amigdalitis";otra habitación/ruidos;nd;Bilbao/Úbeda;;;;;;;
+P0170;QMH200;NO_UNAREP;si;55/16;mujer;;10,3;-1;-1;76;158;-1;37;35;no;ns;Cornetes;otra habitación;nd;andaluz/Málaga;;;;;;;
+P0171;QMH201;NO_UNAREP;si;55/16;mujer;9;0;se descarta SAHS;-1;70;156;-1;49;36;no;si;Asma;otra habitación/echo;nd;andaluz/Málaga/propensa_afonía;;;;;;;
+P0172;QMH202;NO_UNAREP;si;55/16;hombre;;15,6;-1;-1;82;185;-1;68;43;no;si;"Septo_Nasal_Desviado
+Operado_Cornetes";otra habitación;objetos;andaluz/Málaga/Córdoba;;;;;;;
+P0173;QMH203 / Patient0267;NO_UNAREP;si;55/16;hombre;;17;37;11,5;95;179;-1;41;40;no;si;"Septo_Nasal_Desviado
+Cornetes";no;nd;andaluz/Málaga/respiración;;;;;;;
+P0174;QMH204;NO_UNAREP;si;55/16;mujer;;19,8;7,9;41,8;94;154;-1;50;37;no;si;Tiroides;no;nd;Ucrania/voces_al_grabar;;;;;;;
+P0175;QMH205;NO_UNAREP;si;55/16;hombre;12;59,6;60;-1;110;175;-1;78;44;no;si;no;no;nd;andaluz/Almería/Inglaterra;;;;;;;
+P0176;QMH206;NO_UNAREP;si;55/16;mujer;;6;11;11;64;152;-1;51;37;no;no;Septo_Nasal_Desviado;no;nd;andaluz/Málaga/propensa_afonía;;;;;;;
+P0177;QMH207;NO_UNAREP;si;55/16;hombre;;6;11,5;0,3;72;170;-1;58;39;si;si;no;voces;perfil mando;andaluz/Málaga/propensa_afonía;;;;;;;
+P0178;QM134 /Patient0248 orig sin IAH;NO_UNAREP;si;55/16;mujer;;2,3;-1;-1;101;164;-1;37;40;si;ns;no;no;ns;andaluz/Málaga;;;;;;;
+P0179;"QMH16 (Patient 45 + 46 y P1010 antiguo)
+En talla ponia 84, pero creo debe ser error y ser 184 (mayo 2013)";NO_UNAREP;si;16;hombre;15;45;-1;-1;106;184;-1;-1;-1;ns;ns;ns;nd;si;nd;;;;;;;
+P0180;QMH17 (Patient 47 y P01011 antiguo incompleto);NO_UNAREP;si;16;hombre;14;5,3;-1;-1;83;175;-1;-1;-1;ns;ns;ns;nd;si;nd;;;;;;;
+P0181;QMH18 (Patient 49 y P01012 incompleto);NO_UNAREP;si;16;hombre;10;8,4;-1;-1;71;170;-1;-1;-1;ns;ns;ns;nd;si;nd;;;;;;;
+P0182;QMH31 (Patient0076 RECUP: ESTA CON CPAD!!);NO_UNAREP;si;16;hombre;;20;-1;-1;74;170;-1;75;40;antiguo;ns;CPAD En tratamiento;aire;nd;andaluz;;;;;;;
+P0183;QMH32 (patient79 recuperado);NO_UNAREP;si;16;hombre;;49;-1;-1;118;181;-1;33;44;ns;ns;ns;nd;nd;Árabe;;;;;;;
+P0184;QMH46 (Patient 97 fotos en 96 Rec);NO_UNAREP;si;55/16;mujer;;14;-1;-1;45;150;-1;58;37;ns;ns;afonía;nd;nd;andaluz;;;;;;;
+P0185;QMH47 (Patient 0098 recuperado) EN TRAT;NO_UNAREP;si;55/16;hombre;;30;-1;-1;99;178;-1;51;46;si;ns;CPAD En tratamiento;nd;nd;andaluz/chicle;;;;;;;
+P0186;QMH48 (Patient 0099 Recuperado);NO_UNAREP;si;55/16;hombre;;20;-1;-1;71;166;-1;69;40;ns;ns;ns;nd;nd;andaluz;;;;;;;
+P0187;QMH50 (Patient 0101 Recuperado);NO_UNAREP;si;55/16;hombre;;26;-1;-1;86;179;-1;55;42;si;ns;Septo_Nasal_Desviado;no;nd;andaluz/ruidos micro;;;;;;;
+P0188;QMH61 (Patient 0114 Recuperado) EN TRAT;NO_UNAREP;si;55/16;hombre;;22;-1;-1;82;174;-1;53;42;si;ns;CPAD En tratamiento;nd;nd;andaluz;;;;;;;
+P0189;QMH67 (Patient 0124 Rec);NO_UNAREP;si;55/16;hombre;14;15;-1;-1;92;183;-1;29;38;ns;ns;"Septo_Nasal_Desviado
+Operado de vegetaciones";nd;nd;andaluz;;;;;;;
+P0190;QMH71 (Patient 0129 Rec);NO_UNAREP;si;55/16;hombre;;45;-1;-1;130;182;-1;52;47;ns;ns;ns;nd;nd;andaluz;;;;;;;
+P0191;QMH72 (Patient 0130 Rec);NO_UNAREP;si;55/16;hombre;;13;-1;-1;82;175;-1;48;41;antiguo;si;Operado de tabique desviado;nd;nd;andaluz/dificultad leer;;;;;;;
+P0192;QMH91 (Patient 150 Rec);NO_UNAREP;si;55/16;mujer;;6;-1;-1;66;166;-1;69;42;ns;ns;Fibrosis pulmonar;nd;nd;castellano;;;;;;;
+P0193;QMH93 (Patient 0152 Rec);NO_UNAREP;si;55/16;mujer;;6,9;-1;-1;107;156;-1;62;43;ns;ns;Operado de tiriodes;nd;nd;andaluz/voz rota , problemas lectura;;;;;;;
+P0194;"QMH95 (Patient 0154 Rec)
+ES la paciente de
+F:\BD_APNEA\BD_APNEA_REV_3_Enero_2015\
+FALTA_IAH\P1028
+aunque el info.txt decia que estaba con CPAP y no tenía IAH ??";NO_UNAREP;si;55/16;mujer;;44,6;-1;-1;78;165;-1;53;41;ns;ns;ns;nd;ns;andaluz;;;;;;;
+P0195;QMH98 (Patiet 159 Rec);NO_UNAREP;si;55/16;mujer;;3,9;-1;-1;59;167;-1;35;35;si;ns;ns;nd;nd;castellano-catalán;;;;;;;
+P0196;QMH103 (Patient  0165 Rec) En trat CPAD;NO_UNAREP;si;55/16;mujer;;30;-1;-1;89;152;-1;63;43;ns;ns;CPAD En tratamiento;nd;nd;andaluz/problema lectura;;;;;;;
+P0197;QMH169 (Patient 233 Rec);NO_UNAREP;si;55/16;mujer;;8,9;-1;-1;102;164;-1;44;39;ns;ns;Operado de amigdalitis;nd;nd;andaluz/Málaga-nariz taponada;;;;;;;
+P0198;QMH170 (patient 234 Rec);NO_UNAREP;si;55/16;hombre;;2,1;-1;-1;90;178;-1;36;41;si;ns;Operado de sinusitis;ruido;nd;Venezuela;;;;;;;
+P0199;QMH174 (patient 238 Rec);NO_UNAREP;si;55/16;hombre;;2,4;-1;-1;82;174;-1;37;37;no;ns;"Inflamación tabique nasal y garganta
+Dificultad respirar nariz";no;nd;andaluz/Málaga;;;;;;;
+P0200;QMH180 (Patient 244 Rec);NO_UNAREP;si;55/16;hombre;;26,4;-1;-1;93;167;-1;74;47;antiguo;ns;no;no;nd;andaluz/Málaga/problema lectura;;;;;;;
+P0201;QMH209 (Patient273);NO_UNAREP;si;55/16;hombre;9;4,8;-1;-1;86;166;-1;38;40;antiguo;si;no;voces;nd;andaluz/Málaga;;;;;;;
+P0202;QMH210;NO_UNAREP;si;55/16;mujer;;2,6;-1;-1;60;158;-1;65;37;no;si;Faringitis -maestra;no;nd;andaluz/Málaga;;;;;;;
+P0203;QMH211;NO_UNAREP;si;55/16;hombre;;22,3;30,4;14,8;77;168;-1;53;43;si;si;Propenso afonía;no;nd;andaluz/Málaga;;;;;;;
+P0204;QMH212;NO_UNAREP;si;55/16;mujer;;8,1;38,7;5,2;70;154;-1;61;33;no;si;Propenso afonía;no;nd;andaluz/Málaga volumen voz bajo;;;;;;;
+P0205;QMH213;NO_UNAREP;si;55/16;hombre;;19;-1;-1;92;176;-1;52;42;si;si;no;no;nd;andaluz/Málaga;;;;;;;
+P0206;QMH214;NO_UNAREP;si;55/16;hombre;;33,3;49;0;85;174;-1;47;45;antiguo;si;no;no;nd;andaluz/Málaga algun error de lectura;;;;;;;
+P0207;QMH215;NO_UNAREP;si;55/16;hombre;;46;-1;-1;103;174;-1;48;45;antiguo;si;Esta con cortisona por bronquitis,Diabetico;no;nd;andaluz/Málaga;;;;;;;
+P0208;QMH216;NO_UNAREP;si;55/16;hombre;;37;-1;-1;94;183;-1;40;44;poco;si;no;no;nd;andaluz/Málaga;;;;;;;
+P0209;QMH217;NO_UNAREP;si;55/16;hombre;;10,8;18,9;3,2;82;177;-1;35;41;si;si;no;no;nd;andaluz/Málaga;;;;;;;
+P0210;QMH218;NO_UNAREP;si;55/16;hombre;;7,1;16,3;5,6;86;175;-1;36;40;poco;poco;no;no;nd;andaluz/Málaga;;;;;;;
+P0211;QMH219;NO_UNAREP;si;55/16;hombre;;4,8;-1;-1;74;166;-1;65;38;no;si;no;no;nd;andaluz/Córdoba;;;;;;;
+P0212;QMH220;NO_UNAREP;si;55/16;hombre;;27,6;35,9;4,3;86;178;-1;34;42;no;si;no;no;nd;andaluz/Jaén;;;;;;;
+P0213;QMH221;NO_UNAREP;si;55/16;mujer;;19;-1;-1;106;162;-1;58;42;no;si;Propenso afonía;no;nd;andaluz/Málaga;;;;;;;
+P0214;QMH222;NO_UNAREP;si;55/16;hombre;;15,2;44,4;12,8;75;175;-1;51;40;antiguo;si;Propenso afonía;no;nd;andaluz/Córdoba;;;;;;;
+P0215;QMH223;NO_UNAREP;si;55/16;hombre;;50,9;-1;-1;86;173;-1;45;42;antiguo;si;no;no;nd;Español acento Chino;;;;;;;
+P0216;QMH224;NO_UNAREP;si;55/16;hombre;;9,2;41,6;6,1;94;180;-1;41;40;no;si;"Operado de tabique desviado y cornetes
+Ya grabado antes de operase de tabique y se hace la prueba otra vez";422;nd;Canarias;;;;;;;
+P0217;QMH225;NO_UNAREP;si;55/16;hombre;;58,5;84,1;24,1;88;180;-1;55;42;si;si;no;421 (habitual);nd;andaluz/Málaga aunque es de Tánger;;;;;;;
+P0218;QMH226;NO_UNAREP;si;55/16;hombre;;35;-1;-1;95;178;-1;59;47;no;si;Operado cornetes;445;nd;andaluz/Málaga;;;;;;;
+P0219;QMH227;NO_UNAREP;si;55/16;hombre;;9,5;-1;-1;79;177;-1;53;41;no;si;Renitis crónica;421 (habitual);nd;andaluz/Málaga;;;;;;;
+P0220;QMH228;NO_UNAREP;si;55/16;mujer;;25,2;27;11;96;160;-1;65;40;no;si;Alergia que inflama la garganta;421 (habitual);nd;andaluz/Málaga (50 años , nacida en Granada);;;;;;;
+P0221;QMH229;NO_UNAREP;si;55/16;mujer;;51,6;128;51;93;144;-1;51;43;antiguo;si;Se ahoga al hablar y tiene problemas de amígdalas;422;nd;andaluz/Málaga (como la anterior... nacida en Granada);;;;;;;
+P0222;QMH230;NO_UNAREP;si;55/16;hombre;;1,5;0;1,5;86;170;-1;38;40;si;si;no;422;nd;andaluz/Sevilla;;;;;;;
+P0223;QMH231;NO_UNAREP;si;55/16;mujer;;15;-1;-1;93;162;-1;54;38;si;si;Tabique desviado;422;nd;andaluz/Málaga;;;;;;;
+P0224;QMH232 (P0297);NO_UNAREP;si;55/16;mujer;;9,3;9,1;-1;165;161;-1;55;40;antiguo;si;no;422;nd;andaluz/Málaga (nación Sevilla, se ahogaba un poco en las vocales);;;;;;;
+P0225;QMH233;NO_UNAREP;si;55/16;mujer;;1,3;-1;-1;53;157;-1;34;34;si;si;no;421;nd;andaluz/Malaga (ruido niño, en la u ruido inicial);;;;;;;
+P0226;QMH234;NO_UNAREP;si;55/16;mujer;;37,9;66,4;16,5;100;160;-1;30;35;antiguo;si;amídalas gandes;421;nd;andaluz/Málaga;;;;;;;
+P0227;QMH235;NO_UNAREP;si;55/16;hombre;;14;-1;-1;74;178;-1;51;40;no;si;Tabique desviado;421;nd;andaluz/Málaga;;;;;;;
+P0228;QMH236;NO_UNAREP;si;55/16;hombre;12;8,9;-1;-1;72;172;-1;44;37;no;si;Propenso afonía;422;nd;andaluz/Málaga (acatarrado);;;;;;;
+P0229;QMH237;NO_UNAREP;si;55/16;hombre;;38;mínima influencia posicional;;119;190;-1;41;49;no;si;Voz nasal;421;nd;andaluz/Málaga (vocales le cuesta el nivel);;;;;;;
+P0230;QMH238;NO_UNAREP;si;55/16;hombre;;27,3;44;27;105;183;-1;33;44;no;si;Operado de Tabique;421;nd;andaluz/Málaga (algunas grabaciones tienen ruido inicial);;;;;;;
+P0231;QMH239;NO_UNAREP;si;55/16;hombre;13;14,1;14,5;13,1;90;169;-1;43;41;no;si;Pólipos nasales y un poco de asma;443;nd;andaluz/Malagueño (muy resfriado);;;;;;;
+P0232;QMH240;NO_UNAREP;si;55/16;hombre;;15;-1;-1;105;179;-1;46;43;no;si´(protesis boca para dormir);Tabique desviado (poco);421;nd;andaluz/Málaga;;;;;;;
+P0233;QMH241;NO_UNAREP;si;55/16;mujer;;3;-1;-1;105;179;-1;32;37;no;no;Rinitis, Asma y alergia;421;nd;andaluz/Malagueño (muy resfriado);;;;;;;
+P0234;QMH242;NO_UNAREP;si;55/16;mujer;;6,1;7;5,3;58;165;-1;37;32;no;no;no;422;nd;andaluz/Sevilla (profesora);;;;;;;
+P0235;QMH243;NO_UNAREP;si;55/16;mujer;;11,6;-1;-1;60;160;-1;62;32;no;si;no;421;nd;andaluz/Málaga (voz baja);;;;;;;
+P0236;QMH244;NO_UNAREP;si;55/16;hombre;;48,7;influencia mínima;;85;173;-1;66;43;antiguo;si;Propenso afonía;421;nd;andaluz/Málaga;;;;;;;
+P0237;QMH245;NO_UNAREP;si;55/16;hombre;10;40,8;influencia mínima;;105;177;-1;50;46;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0238;QMH246;NO_UNAREP;si;55/16;hombre;;32;-1;-1;117;197;-1;33;44;si;si;infección pulmón hace 2 años;421;nd;andaluz/Málaga;;;;;;;
+P0239;QMH247;NO_UNAREP;si;55/16;mujer;;20;influencia mínima;;99;159;-1;63;42;no;si;no;421;nd;andaluz/Málaga (no poder mantener vocales);;;;;;;
+P0240;QMH248 (CPAD);NO_UNAREP;si;55/16;hombre;;21,7;;6;96;180;-1;71;43;antiguo;no con CPAD;no;421;nd;andaluz/Málaga;;;;;;;
+P0241;QMH249;NO_UNAREP;si;55/16;hombre;;4,2;5;0;81;176;-1;59;41;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0242;QMH250;NO_UNAREP;si;55/16;mujer;;24,8;-1;-1;80;157;-1;80;43;no;no;no;422;nd;andaluz/Málaga (afonía a veces);;;;;;;
+P0243;QMH251;NO_UNAREP;si;55/16;mujer;;3;-1;-1;66;158;-1;71;35;si;si;Pulmón, usa aerosoles;421;nd;Madrid;;;;;;;
+P0244;QMH252;NO_UNAREP;si;55/16;hombre;;3;-1;-1;100;165;-1;57;44;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0245;QMH253 (CPAD);NO_UNAREP;si;55/16;hombre; ;12,6;-1;-1;79;170;-1;76;42;no;no con CPAD;no;421;nd;Madrid;;;;;;;
+P0246;QMH254;NO_UNAREP;si;55/16;hombre;;8;influencia mínima;;91;179;-1;40;40;antiguo;si;Cicatriz pulmón;421;nd;argentino/un poco resfriado;;;;;;;
+P0247;QMH255;NO_UNAREP;si;55/16;hombre;;11,9;44,5;3,5;89;180;-1;47;43;si;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0248;QMH256;NO_UNAREP;si;55/16;hombre;;14;;2;75;172;-1;61;40;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0249;QMH257;NO_UNAREP;si;55/16;hombre;;13,5;7,4;18,1;78;162;-1;55;43;no;si;Propenso afonía;421;nd;andaluz/Málaga (ruidos acompañante);;;;;;;
+P0250;QMH258;NO_UNAREP;si;55/16;hombre;;5,5;2,9;5,1;76;175;-1;55;43;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0251;QMH259;NO_UNAREP;si;55/16;hombre;;10,8;-1;-1;82;171;-1;41;41;no;si;Asma, propenso afonía;421;nd;andaluz/Jaén;;;;;;;
+P0252;QMH260;NO_UNAREP;si;55/16;mujer;;2;2;0;80;160;-1;55;40;si;si;Efisema pulmonar y bronquitis obstructiva;414;nd;andaluz/Jaén;;;;;;;
+P0253;QMH261;NO_UNAREP;si;55/16;hombre;10;5;-1;-1;88;171;-1;40;46;si;si;no;421;nd;colombiano;;;;;;;
+P0254;QMH262 ( (0327);NO_UNAREP;si;55/16;hombre;;10,6;9,9;10,6;95;182;-1;48;43;si;si;no;421;nd;andaluz/Málaga (Nacido Granda pero desde los 11 años en Málaga);;;;;;;
+P0255;QMH263;NO_UNAREP;si;55/16;mujer;13;31;influencia mínima;;71;168;-1;64;33;no;si;Afonía;422;nd;andaluz/Málaga (Nacida Cádiz pero 37 años en Málaga);;;;;;;
+P0256;QMH264 ( (0329);NO_UNAREP;si;55/16;hombre;;20,7;-1;-1;108;173;-1;57;45;si;si;no;442;nd;andaluz/Málaga (Nacido Gerina pero desde el 83 en Málaga);;;;;;;
+P0257;QMH265;NO_UNAREP;si;55/16;mujer;;14;-1;-1;65;151;-1;67;36;no;si;no;422;nd;Madrid (aunque 10 años en Cádiz);;;;;;;
+P0258;QMH266;NO_UNAREP;si;55/16;mujer;;3,4;-1;.1;99;165;-1;52;40;si;si;Alergia asmática en primavera;422;nd;andaluz/Málaga (es de Cädiz pero 10 años en Málaga);;;;;;;
+P0259;QMH267 (CPAD);NO_UNAREP;si;55/16;hombre;;9;-1;-1;97;170;-1;53;42;no;no con CPAD;Asma;422;nd;andaluz/Málaga (afónico cuando daba clases -profesor);;;;;;;
+P0260;QMH268;NO_UNAREP;si;55/16;hombre;;30;-1;-1;63;167;-1;60;36;si;si;Propenso afonía;443;nd;andaluz/Málaga (20 años en Málaga pero Madrileño, y cierto acento madrleño);;;;;;;
+P0261;QMH269 (334);NO_UNAREP;si;55/16;hombre;;;;;;;;;;;;;;;;;;;;;;
+P0262;QMH270;NO_UNAREP;si;55/16;hombre;;3,5;-1;-1;78;169;-1;53;43;si;si;Propenso afonía;422;nd;andaluz/Málaga (voz baja y dificultades para leer);;;;;;;
+P0263;QMH271 (CPAD hace 10 años);NO_UNAREP;si;55/16;hombre;;2;-1;-1;105;173;-1;67;50;si;no con CPAD;Bronquitis crónica;425;nd;andaluz/Málaga;;;;;;;
+P0264;QMH272;NO_UNAREP;si;55/16;mujer;;1;0,7;1,3;56;158;-1;29;33;no;no;Propenso afonía;443;nd;andaluz/Málaga (música de fondo);;;;;;;
+P0265;QMH273;NO_UNAREP;si;55/16;hombre;12;8;-1;-1;91;181;-1;45;41;no;si;no;445;nd;andaluz/Málaga (aunque algo acento Cordobés);;;;;;;
+P0266;QMH274;NO_UNAREP;si;55/16;mujer;;4,2;10,8;2,4;93;167;-1;39;38;no;si;Propenso afonía;425;nd;andaluz/Málaga (aunque nacida en Almería);;;;;;;
+P0267;QMH275;NO_UNAREP;si;55/16;mujer;;84,8;-1;-1;103;163;-1;43;39;antiguo;si;Asma;423;nd;andaluz/Málaga (grabación u con error);;;;;;;
+P0268;QMH276;NO_UNAREP;si;55/16;mujer;;21,9;-1;-1;54;154;-1;66;36;si;si;no;423;nd;andaluz/Málaga;;;;;;;
+P0269;QMH277;NO_UNAREP;si;55/16;mujer;;3,5;0;3,6;84;162;-1;65;37;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0270;QMH278;NO_UNAREP;si;55/16;mujer;;8,9;-1;-1;85;151;-1;48;39;no;si;no;422;nd;andaluz/Málaga (ruidos de fondo);;;;;;;
+P0271;QMH279;NO_UNAREP;si;55/16;mujer;;57;influencia mínima;;71;165;-1;62;37;antiguo;si;Propenso afonía;422;nd;andaluz/Málaga;;;;;;;
+P0272;QMH280;NO_UNAREP;si;55/16;mujer;;13;-1;-1;60;167;-1;51;35;si;si;Tabique y propensa afonia;445;nd;andaluz/Málaga (ruidos de fondo);;;;;;;
+P0273;QMH281;NO_UNAREP;si;55/16;hombre;;10;-1;-1;133;175;-1;48;45;si;si;no;422;nd;andaluz/Málaga (dificultad al leer);;;;;;;
+P0274;QMH282;NO_UNAREP;si;55/16;hombre;;29,6;influencia moderada;;94;175;-1;57;45;no;si;neumonía hace 12 años;422;nd;Navarra;;;;;;;
+P0275;QMH283;NO_UNAREP;si;55/16;hombre;;40,9;54;0;85;175;-1;54;44;no;si;Operado de desviación de tabique nasal;422;nd;Granada (le cuesta leer, nivel voz bajo);;;;;;;
+P0276;QMH284;NO_UNAREP;si;55/16;hombre;;3,6;6,9;3,2;84;176;-1;42;38;no;si;Asma;422;nd;andaluz/Córdoba+Málaga (ruido fondo niño);;;;;;;
+P0277;QMH285;NO_UNAREP;si;55/16;mujer;;1,9;2;1;100;152;-1;64;40;no;si;no;422;fondo termostato;No sabe casi leer (Nacida Sevilla, vivión en Francia);;;;;;;
+P0278;QMH286;NO_UNAREP;si;55/16;hombre;;4,3;influencia posicional muy importante;;83;189;-1;42;38;no;si;no;423;nd;andaluz/Málaga (aunque nació en Suecia);;;;;;;
+P0279;QMH287;NO_UNAREP;si;55/16;hombre;;35;sin influencia posicional;;86;181;-1;48;43;no;si;no;442;nd;andaluz/Málaga;;;;;;;
+P0280;QMH288 (P0353);NO_UNAREP;si;55/16;mujer;;2,5;;;107;160;-1;46;38;antiguo;si;no;422;nd;Valenciano;;;;;;;
+P0281;QMH289 (P0354);NO_UNAREP;si;55/16;mujer;;7,3;22,3;6,7;95;158;-1;41;37;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0282;QMH290;NO_UNAREP;si;55/16;hombre;11;9;1,9;infl. Importante;82;172;-1;55;43;si;si;Pequeño efisema pulmonar;445;nd;andaluz/Málaga;;;;;;;
+P0283;QMH291;NO_UNAREP;si;55/16;mujer;;9,6;14,2;7,3;93;164;-1;40;37;si;si;Bronquitis asmática;432;nd;andaluz/Malaga: lee con dificultad, hay frases incorrectas, y esta muy ronca;;;;;;;
+P0284;QMH292 (P0357);NO_UNAREP;si;55/16;mujer;;3,2;;;72;167;-1;51;34;si;si;no;444;nd;andaluz/Malaga zezea mucho!!;;;;;;;
+P0285;QMH293 (P0358);NO_UNAREP;si;55/16;hombre;;21,4;4;22,7;93;178;-1;58;40;no;si;sinusitis;422;nd;León;;;;;;;
+P0286;QMH294;NO_UNAREP;si;55/16;mujer;14;50;-1;-1;66;150;-1;67;33;no;si;Operación nasal, ronquera crónica;443;nd;De Ubrique;;;;;;;
+P0287;QMH295;NO_UNAREP;si;55/16;hombre;;2,6;2,7;1,8;86;181;-1;29;39;no;no;no;422;nd;andaluz/Malaga (ruido pasillo);;;;;;;
+P0288;QMH296 (P0361);NO_UNAREP;si;55/16;hombre;;67,8;sin influencia posicional;;130;178;-1;33;46;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0289;QMH297;NO_UNAREP;si;55/16;hombre;;26;-1;-1;95;182;-1;54;42;no;si;no;422;nd;andaluz/Málaga (ruido de fondo);;;;;;;
+P0290;QMH298 (P0363) Diagnosticado usa CPAP;NO_UNAREP;si;55/16;hombre;;40;-1;-1;120;187;-1;60;46;si;si sin CPAP;Tabique desviado y rinitis seca;422;nd;andaluz/Málaga de Barcelona (algo de acento);;;;;;;
+P0291;QMH299;NO_UNAREP;si;55/16;hombre;;8,1;Infl. Importante;4;75;168;-1;53;43;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0292;QMH300 (P0365);NO_UNAREP;si;55/16;hombre;10;51;sin influencia posicional;;80;171;-1;49;46;no;si;no;444;nd;andaluz/Málaga (ruido con un folio que tenía en la mano);;;;;;;
+P0293;QMH301 (P0366);NO_UNAREP;si;55/16;hombre;;6,6;;;85;172;-1;40;40;si;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0294;QMH302;NO_UNAREP;si;55/16;hombre;;25,3;64,3;3,2;75;161;-1;60;38;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0295;QMH303;NO_UNAREP;si;55/16;hombre;;33;-1;-1;85;178;-1;43;42;si;si;Operado de tabique;444;nd;andaluz/Málaga;;;;;;;
+P0296;QMH304;NO_UNAREP;si;55/16;mujer;;4,1;5,4;1,5;57;162;-1;40;33;no;si;Operada vegetaciones y cornetes;428;nd;andaluz/Málaga;;;;;;;
+P0297;QMH305 (P0370);NO_UNAREP;si;55/16;mujer;;5,9;6,7;5,3;66;156;-1;49;36;si;si;Cornetes;445;nd;andaluz/Málaga;;;;;;;
+P0298;QMH306;NO_UNAREP;si;55/16;mujer;;108,4;108;0;87;154;-1;59;45;no;si;no;443;nd;andaluz/Málaga;;;;;;;
+P0299;QMH307;NO_UNAREP;si;55/16;hombre;12;24;18;-1;94;174;-1;66;45;si;si;no;443;nd;andaluz/Málaga;;;;;;;
+P0300;QMH308 (373);NO_UNAREP;si;55/16;hombre;;;;;;;;;;;;;;;;;;;;;;
+P0301;QMH309 (ya grabado hace dos años);NO_UNAREP;si;55/16;hombre;;34;-1;-1;93;170;-1;40;42;no;si;Operado de cornetes;422;nd;andaluz/Málaga;;;;;;;
+P0302;QMH310;NO_UNAREP;si;55/16;hombre;;25,8;41;14,2;140;187;-1;36;48;no;si;Hipertrofia de cornetes;422;nd;Francés;;;;;;;
+P0303;QMH311;NO_UNAREP;si;55/16;mujer;;3;4,2;2,6;74;162;-1;40;34;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0304;QMH312;NO_UNAREP;si;55/16;hombre;8;11;Infl. Importante ;0,9;128;193;-1;38;45;no;si;Faringitis crónica;422;nd;andaluz/Málaga (ruido de fondo pasillo);;;;;;;
+P0305;QMH313;NO_UNAREP;si;55/16;hombre;;58,4;75,4;43,2;81;170;-1;49;41;antiguo;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0306;QMH314;NO_UNAREP;si;55/16;hombre;;25;sin influencia posicional;;103;190;-1;53;44;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0307;QMH315;NO_UNAREP;si;55/16;hombre;;9;infl. Pos moderada de 8,9;;74;170;-1;64;41;poco;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0308;QMH316;NO_UNAREP;si;55/16;hombre;;17;Infl. Importante ;;102;183;-1;34;43;no;si;Cornetes y tabique;422;nd;andaluz/Málaga;;;;;;;
+P0309;QMH317 (0382);NO_UNAREP;si;55/16;hombre;;2;-1;-1;80;175;-1;58;39;si;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0310;QMH318;NO_UNAREP;si;55/16;mujer;;3,4;7;1;85;168;-1;50;36;no;si;no;444;nd;andaluz/Málaga;;;;;;;
+P0311;QMH319;NO_UNAREP;si;55/16;hombre;;33,1;-1;-1;92;170;-1;71;46;antiguo;si;Daño en pulmones;422;nd;Toledo;;;;;;;
+P0312;QMH320;NO_UNAREP;si;55/16;hombre;;36,8;45,2;30,4;110;187;-1;44;42;no;si;operado de cornetes;422;fondo;andaluz/Málaga (aunque hasta los 19 en Granada);;;;;;;
+P0313;QMH321;NO_UNAREP;si;55/16;hombre;;61,5;4,7;63,4;110;169;-1;56;44;no;si;atrofia garganta Atrofia (AMS tipo C);422;nd;andaluz/Málaga (acento argentino, según Sonia);;;;;;;
+P0314;QMH322;NO_UNAREP;si;55/16;hombre;;78,4;77,5;78,8;112;178;-1;37;43;antiguo;si;Tabique desviado;422;nd;andaluz/Málaga;;;;;;;
+P0315;QMH323 (388);NO_UNAREP;si;55/16;mujer;;;;;;;;;;;;;;;;;;;;;;
+P0316;QMH324;NO_UNAREP;si;55/16;hombre;;36,5;sin influencia posicional;;85;183;-1;34;39;si;si;no;422;nd;Salamanca;;;;;;;
+P0317;QMH325;NO_UNAREP;si;55/16;hombre;;5,1;18,4;4,5;125;180;-1;51;46;antiguo;si;Tabique desviado;422;nd;andaluz/Málaga (aunque nacido en Granada);;;;;;;
+P0318;QMH326 (Patient 391);NO_UNAREP;si;55/16;hombre;;57;sin influencia posicional;;105;176;-1;48;49;no;si;Tabique desviado y cornetes grandes;422;nd;Canarias;;;;;;;
+P0319;QMH327;NO_UNAREP;si;55/16;mujer;;29,1;51;22,5;82;164;-1;51;36;si;si;Rinitis, vegetaciones, ronquera cronica daño nodulos?;422;nd;andaluz/Málaga;;;;;;;
+P0320;QMH328;NO_UNAREP;si;55/16;hombre;;23,6;-1;-1;95;172;-1;43;46;si (poco);si;no;421;nd;andaluz/Málaga;;;;;;;
+P0321;QMH329;NO_UNAREP;si;55/16;hombre;;11;influencia posicional minima;;87;176;-1;51;40;antiguo;si;no;422;nd;Bilbao;;;;;;;
+P0322;QMH330;NO_UNAREP;si;55/16;hombre;13;19;-1;16;115;192;-1;36;40;poco;si;no;422;nd;Cordoba;;;;;;;
+P0323;QMH331;NO_UNAREP;si;55/16;hombre;;15;-1;-1;80;170;-1;64;41;poco;si;Efisemapulmonar, Bronquiestasia;445;nd;andaluz/Málaga (Marruecos pero 50 años en Málaga);;;;;;;
+P0324;QMH332;NO_UNAREP;si;55/16;hombre;;6,5;12;3;71;172;-1;32;39;antiguo;si;no;445;nd;andaluz/Málaga;;;;;;;
+P0325;QMH333;NO_UNAREP;si;55/16;mujer;;64;sin influencia posicional;;70;160;-1;55;34;no;si;Propenso afonía;445;nd;andaluz/Málaga (ruido pasillo acompañantes);;;;;;;
+P0326;QMH334;NO_UNAREP;si;55/16;hombre;;5,8;11,1;1;80;183;-1;32;36;no;si;Rinitis, Hipertrofia Cornetes;422;nd;andaluz/Alicante;;;;;;;
+P0327;QMH335;NO_UNAREP;si;55/16;hombre;;74;sin influencia posicional;;120;191;-1;35;44;si;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0328;QMH336;NO_UNAREP;si;55/16;hombre;;65;sin influencia posicional;;133;180;-1;35;44;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0329;QMH337;NO_UNAREP;si;55/16;mujer;;4;0,8;4,6;83;155;-1;37;33;si;si;no;423;nd;andaluz/Málaga;;;;;;;
+P0330;QMH338;NO_UNAREP;si;55/16;hombre;;65;sin influencia posicional;;78;163;-1;70;41;no;si;operado de campañilla;421;nd;andaluz/Málaga (aunque Cordoba, pero lleva mucho en Málaga);;;;;;;
+P0331;QMH339;NO_UNAREP;si;55/16;hombre;;76,5;76;0;149;174;-1;45;43;no;si;no (operado reducc estomago);422;nd;andaluz/Málaga;;;;;;;
+P0332;QMH340 (Patient 405);NO_UNAREP;si;55/16;hombre;;;;;100;178;-1;52;42;si;si;Bronquitis cronica, tabique desviado;422;nd;andaluz/Málaga;;;;;;;
+P0333;QMH341;NO_UNAREP;si;55/16;mujer;12;0;se descarta;-1;88;168;-1;34;39;si;si;Bronquitis;423;nd;andaluz/Málaga;;;;;;;
+P0334;QMH342;NO_UNAREP;si;55/16;hombre;;61;32,6;72;135;185;-1;43;50;no;si;no;421;nd;andaluz/Alicante-Málaga (9 años en Malaga);;;;;;;
+P0335;QMH343 Esta paciente ya fue diagnosticada de apnea y se le hicieron estas grabaciones hace aproximadamente un año. Ahora el dr.Alcázar le repite la prueba porque ha perdido 12 kilos y ya no tiene síntomas de apnea, por eso dice creer que ya no ronca. Usa CPAP desde que le disgnosticaron apnea, pero hace una semana que dejó de usarla para hacerse la prueba;NO_UNAREP;si;55/16;mujer;;6;-1;-1;73;165;-1;35;34;antiguo;ns;CPAD En tratamiento aunque dejado;443;nd;andaluz/Málaga;;;;;;;
+P0336;QMH344;NO_UNAREP;si;55/16;mujer;13;34;sin influencia posicional;-1;80;156;-1;57;41;no;si;Bronquitis;422;nd;andaluz/Málaga;;;;;;;
+P0337;QMH345;NO_UNAREP;si;55/16;hombre;;43;sin influencia posicional;-1;119;169;-1;52;44;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0338;QMH346;NO_UNAREP;si;55/16;hombre;;13,6;4,8;15,8;85;173;-1;62;40;antiguo;si;no;422;nd;andaluz/Málaga (tos al final de frase);;;;;;;
+P0339;QMH347;NO_UNAREP;si;55/16;mujer;;11;;;70;167;-1;57;33;no;si;no;422;nd;andaluz/Málaga (ruido fondo pasillo);;;;;;;
+P0340;QMH348;NO_UNAREP;si;55/16;hombre;;5,3;influencia posicional muy importante;-1;85;174;-1;36;40;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0341;QMH349;NO_UNAREP;si;55/16;hombre;;11,4;11,6;5,6;95;194;-1;49;42;poco;si;Cornetes estrechos;421;nd;andaluz poco definido;;;;;;;
+P0342;QMH350;NO_UNAREP;si;55/16;hombre;;43;sin influencia posicional;-1;104;179;-1;57;46;antiguo;si;Cornetes cerrados y glotos;425;nd;Melilla (se ahoga con las vocales sostenidas);;;;;;;
+P0343;QMH351;NO_UNAREP;si;55/16;hombre;;30;influencia posicional leve;-1;84;170;-1;59;40;no;si;Tabique desviado un poco;422;nd;andaluz/Málaga;;;;;;;
+P0344;QMH352;NO_UNAREP;si;55/16;mujer;13;0;ausencia patológica resp.;;71;175;-1;35;35;si;si;Propensa afonía;421;nd;andaluz/Málaga;;;;;;;
+P0345;QMH353;NO_UNAREP;si;55/16;hombre;;13,5;24;12,3;100;184;-1;64;42;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0346;QMH354;NO_UNAREP;si;55/16;hombre;12;38;sin influencia posicional;-1;83;165;-1;45;45;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0347;QMH355;NO_UNAREP;si;55/16;hombre;;0;ausencia patológica resp.;;98;185;-1;41;40;si;si;Neumotorax y ronquera de profesor;422;nd;andaluz/Málaga (ruido pasillo);;;;;;;
+P0348;QMH356;NO_UNAREP;si;55/16;mujer;;3,5;-1;-1;84;158;-1;51;35;no;si;Tiroides y propensa ronquera;421;nd;andaluz/Málaga;;;;;;;
+P0349;QMH357;NO_UNAREP;si;55/16;mujer;;6,9;10,9;4,2;54;168;-1;47;33;si;si;Ronquera;422;nd;andaluz/Málaga (problemas de grabación, nivel, cortes…);;;;;;;
+P0350;QMH358;NO_UNAREP;si;55/16;hombre;;27;influencia posicional leve;-1;101;173;-1;53;46;antiguo;si;no;422;nd;Melilla;;;;;;;
+P0351;QMH359;NO_UNAREP;si;55/16;mujer;;25,2;30,9;16,4;68;160;-1;51;37;no;si;Tabique desviado y Ototubaritis (inflam trompa Eutaquio);422;nd;andaluz/Málaga;;;;;;;
+P0352;QMH360 (Patient 425);NO_UNAREP;si;55/16;hombre;;28,9;;;80;174;-1;47;42;antiguo;si;Tabique desviado;422;nd;andaluz/Málaga;;;;;;;
+P0353;QMH361;NO_UNAREP;si;55/16;hombre;;0,8;0;0,9;72;173;-1;29;38;si;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0354;QMH362;NO_UNAREP;si;55/16;hombre;;15,9;26,3;6,7;80;172;-1;46;41;no;si;no;422;nd;andaluz/Granada;;;;;;;
+P0355;QMH363;NO_UNAREP;si;55/16;hombre;;27,8;32;22;86;174;-1;60;42;no;si;Rinofaringitis alérgica;423;nd;andaluz/Málaga;;;;;;;
+P0356;QMH364;NO_UNAREP;si;55/16;mujer;;2,1;4,5;0,4;58;163;-1;49;31;si;si;no;423;nd;andaluz/Granada;;;;;;;
+P0357;QMH365;NO_UNAREP;si;55/16;hombre;;12,6;12,1;4,6;65;165;-1;50;40;si;si;Aritmias;423;nd;andaluz/Málaga;;;;;;;
+P0358;QMH366;NO_UNAREP;si;55/16;hombre;12;11;influencia posicional muy importante;-1;110;180;-1;59;49;no;si;rinosinusitis;422;nd;andaluz/Málaga (aunque nacido en Melilla);;;;;;;
+P0359;QMH367;NO_UNAREP;si;55/16;hombre;9;0;ausencia patológica resp.;-1;87;185;-1;42;40;antiguo;si;Operado de un quiste branquial;421;nd;andaluz/Málaga (ruido del pasillo);;;;;;;
+P0360;QMH368;NO_UNAREP;si;55/16;hombre;;21;influencia posicional mínima;-1;87;180;-1;70;42;antiguo;si;Tiene una cicatriz en el pulmón por haber fumado. Le han quitado un pulmón;422;nd;andaluz/Málaga;;;;;;;
+P0361;QMH369;NO_UNAREP;si;55/16;mujer;;11,8;17,2;7,4;68;155;-1;60;34;no;si;Tabique nasal desviado, propensa afonia;421;nd;andaluz/Jaen;;;;;;;
+P0362;QMH370;NO_UNAREP;si;55/16;hombre;13;51;influencia posicional mínima;-1;95;181;-1;54;43;no;si;no;421;nd;Coruña;;;;;;;
+P0363;QMH371 (Patient0436);NO_UNAREP;si;55/16;mujer;;21,4;40;6,6;70;160;-1;42;34;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0364;QMH372;NO_UNAREP;si;55/16;hombre;;17,2;28,3;14;115;180;-1;65;47;no;si;Tabique desviado;421;nd;Ceuta;;;;;;;
+P0365;QMH373;NO_UNAREP;si;55/16;hombre;;74;87;30;119;182;-1;36;45;no;si;no;424;nd;andaluz/Málaga;;;;;;;
+P0363;QMH374;NO_UNAREP;si;55/16;mujer;;16,9;-1;-1;89;167;-1;63;39;no;si;Faringitis crónica;442;nd;andaluz/Málaga;;;;;;;
+P0367;QMH375;NO_UNAREP;si;55/16;hombre;;15,2;48,4;11,6;96;174;-1;60;39;no;si;no;422;nd;andaluz/Málaga;;;;;;;
+P0368;QMH376;NO_UNAREP;si;55/16;mujer;13;25;34;9;67;153;-1;54;38;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0369;QMH377;NO_UNAREP;si;55/16;hombre;;6,9;influencia posicional leve;-1;80;160;-1;59;41;no;si;Tabique algo desviado y operado de cornetes;421;nd;andaluz/Málaga;;;;;;;
+P0370;QMH378;NO_UNAREP;si;55/16;hombre;;8,7;-1;Influencia posicional importante con IAH en decúbito lateral de 3;72;168;-1;58;38;si;si;Operado de quistes nasales hace muchos años;421;nd;andaluz/Málaga;;;;;;;
+P0371;QMH379;NO_UNAREP;si;55/16;mujer;;8,4;-1;Influencia posicional muy significativa con IAH de decúbito lateral de 5.2;86;167;-1;42;36;no;si;Asma bronquial;445;nd;andaluz/Málaga;;;;;;;
+P0372;QMH380;NO_UNAREP;si;55/16;hombre;;71,3;61;87;97;176;-1;39;44;si;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0373;QMH381;NO_UNAREP;si;55/16;hombre;;0;-1;-1;68;162;-1;62;44;no;si;A veces se le eleva el diafragma  por un síndome que padece.;421;nd;andaluz/Málaga-Catalan Ha vivido 30 años en Cataluña;;;;;;;
+P0374;QMH382;NO_UNAREP;si;55/16;hombre;;84,4;98,7;80,2;109;173;-1;56;47;no;si;no;421;nd;andaluz/Málaga;;;;;;;
+P0375;QMH383 (patient 0448);NO_UNAREP;si;55/16;hombre;;18,6;;;96;180;-1;45;39;antiguo;si;Tabique nasal desviado;421;nd;andaluz/Málaga;;;;;;;
+P0376;QMH384;NO_UNAREP;si;55/16;hombre;;6,6;10;3,6;99;183;-1;48;42;no;si;sinusitis;421;nd;andaluz/Málaga;;;;;;;
+P0377;QMH385 (450);NO_UNAREP;si;55/16;hombre;;6;10;3,1;140;188;-1;30;43;antiguo;si;no;426;nd;andaluz/Málaga;11;15;;;;;
+P0378;QMH386;NO_UNAREP;si;55/16;mujer;;24,5;-1;-1;71;154;-1;88;37;antiguo;si;no;423;nd;andaluz/Málaga  (desde 2002 es de Marruecos);10;12,5;;;;;
+P0379;QMH387;NO_UNAREP;si;55/16;hombre;;11,7;30;8,7;98;186;-1;53;40;antiguo;si;no;425;nd;andaluz/Málaga;;;;;;;
+P0380;QMH388;NO_UNAREP;si;55/16;mujer;12;0;se descarta;-1;no se saben;;;71;40;no;si;problemas empezar a hablar;421;nd;andaluz/Málaga (ruido pasillo);10,5;13;;;;;
+P0381;QMH389;NO_UNAREP;si;55/16;hombre;;24;42;15;97;175;-1;43;45;no;si;no;421;nd;andaluz/Málaga;11;13;;;;;
+P0382;QMH390;NO_UNAREP;si;55/16;hombre;12;12,5;-1;-1;80;170;-1;70;41;no;si;carraspera garganta;422;nd;andaluz/Málaga;9,711;14,197;;;;;
+P0383;QMH391;NO_UNAREP;si;55/16;hombre;;13,2;-1;Influencia posicional muy importante con IAH en decúbito lateral de 4;69;168;-1;65;38;no;si;no;421;nd;colombiano;9,497;12,69;;;;;
+P0384;QMH392;NO_UNAREP;si;55/16;hombre;;6,4;10;4;92;190;-1;40;40;no;si;no;421;nd;andaluz/Granada;10,369;13,208;;;;;
+P0385;QMH393;NO_UNAREP;si;55/16;mujer;;38,7;42,8;36,6;132;171;-1;48;42;no;si;no;445;nd;andaluz/Málaga;9,704;12,573;;;;;
+P0386;QMH394;NO_UNAREP;si;55/16;hombre;;29,7;59,6;20,3;114;175;-1;62;46;no;si;no;422;nd;andaluz/Málaga;10,008;14,236;;;;;
+P0387;QMH395;NO_UNAREP;si;55/16;hombre;13;53;influencia posicional mínima;-1;99;172;-1;76;50;antiguo;si;no;422;nd;andaluz/Málaga;9,18;14,056;;;;;
+P0388;QMH396;NO_UNAREP;si;55/16;mujer;;16,8;15,6;28,7;100;168;-1;31;38;no;si;Rinitis alérgica;422;nd;andaluz/Málaga;9,706;12,54;;;;;
+P0389;QMH397 (Patient0462);NO_UNAREP;si;55/16;hombre;;10,1;28,9;7,9;80;175;-1;45;40;no;si;Micronódulos y tabique nasal desviado y algo afónico al grabar;422;nd;andaluz/Málaga;9,724;13,324;;;;;
+P0390;"QMH398 (Usa CPAP y se hizo la prueba es el paciente 303(QMH238)) que es el P0295
+";NO_UNAREP;si;55/16;hombre;;51,9;44;53;106;183;-1;34;46;no;si;no;421;nd;andaluz/Málaga;10,506;14,266;;;;;
+P0391;QMH399;NO_UNAREP;si;55/16;hombre;;7,5;9,2;0;89;170;-1;42;41;no;si;Tabique nasal desviado ;421;nd;andaluz/Málaga;9,27;13,606;;;;;
+P0392;QMH400 Patient465);NO_UNAREP;si;55/16;mujer;;0;;;63;165;-1;44;34;si;si;Protesis en encia superior para implantes;422;nd;andaluz/Málaga (nacida Sevilla lleva 20 años en Málaga);9,103;13,081;;;;;
+P0393;QMH401;NO_UNAREP;si;55/16;hombre;;31,4;31,4;32,2;81;180;-1;70;39;no;si;no;421;nd;andaluz/Málaga;9,672;14,617;;;;;
+P0394;QMH402;NO_UNAREP;si;55/16;hombre;;25;influencia posicional mínima;-1;78;175;-1;46;39;si;si;no;422;nd;andaluz/Málaga;9,173;13,388;;;;;
+P0395;QMH403;NO_UNAREP;si;55/16;hombre;;18,6;influencia posicional mínima;-1;91;170;-1;63;42;no;si;no;422;nd;Bilbao pero lleva muchos años en Malaga ;9,316;14,007;;;;;
+P0396;QMH404;NO_UNAREP;si;55/16;mujer;12;0;ausencia patológica resp.;-1;58;164;-1;41;33;no;si;Hiperreactividad  bronquial;421;nd;andaluz/Málaga (ruido niño de fondo);8,884;12,406;;;;;
+P0397;QMH405;NO_UNAREP;si;55/16;hombre; ;13,8;influencia posicional mínima;-1;84;180;-1;51;41;no;si;no;421;nd;Nacido en Granada, ha vivido en Tarragona, Madrid y ahora en Málaga;9,845;14,376;;;;;
+P0398;QMH406;NO_UNAREP;si;55/16;mujer;;66;influencia posicional muy importante;-1;110;166;-1;47;41;no;si;no;421;nd;Valencia;10,493;14,305;;;;;
+P0399;QMH407;NO_UNAREP;si;55/16;hombre;;21,7;24,4;16,2;81;180;-1;47;38;antiguo;si;Cornetes grandes;421;nd;Valencia;8,446;12,002;;;;;
+P0400;QMH408;NO_UNAREP;si;55/16;hombre;12;32;influencia posicional mínima;-1;85;177;-1;61;39;antiguo;si;Operado de pólipos;421;nd;Madrid;10,222;13,979;;;;;
+P0401;QMH409 (Patient 474);NO_UNAREP;si;55/16;hombre;;13,5;19,5;11,5;103;192;-1;30;43;no;si;Tabique algo desviado, cornetes gordos, campañilla hipertrófica;422;nd;andaluz/Málaga;9,945;13,955;;;;;
+P0402;QMH410;NO_UNAREP;si;55/16;mujer;;1;0;1;100;162;-1;43;37;no;si;Cornetes;422;nd;andaluz/Málaga;9,668;12,827;;;;;
+P0403;QMH411;NO_UNAREP;si;55/16;mujer;;17,8;9,4;19,2;94;162;-1;67;39;antiguo;si;no;445;nd;andaluz/Málaga;9,538;13,754;;;;;
+P0404;QMH412 (Patient0477);NO_UNAREP;si;55/16;hombre;10;53;influencia posicional mínima;-1;71;166;-1;40;38;no;si;Operado de tabique, amígdalas grandes;445;nd;andaluz/Málaga;8,432;13,715;;;;;
+P0405;QMH413;NO_UNAREP;si;55/16;hombre;11;9,2;43,4;1,3;89;175;-1;55;42;no;si;Tabique desviado;421;nd;andaluz/Málaga;9,724;14,745;;;;;
+P0406;QMH414;NO_UNAREP;si;55/16;hombre;13;2,5;-1;-1;67;170;-1;48;37;no;si;no;422;nd;andaluz/Málaga;9,303;13,58;;;;;
+P0407;QMH415 (Patient0480);NO_UNAREP;si;55/16;hombre;;41,7;50;17;61;169;-1;50;34;no;si;hace 3 meses tuvo neumonia;422;nd;andaluz/Málaga;9,333;12,881;;;;;
+P0408;QMH416;NO_UNAREP;si;55/16;hombre;;17;;;83;183;-1;33;39;no;si;no;421;nd;Madrid;9,088;13,374;;;;;
+P0409;QMH418(Patient0483);NO_UNAREP;si;55/16;hombre;;11;influencia posicional leve;;117;182;-1;40;46;no;si;no;422;nd;andaluz/Málaga;10,181;14,441;;;;;
+P0410;QMH419 (Patient0484);NO_UNAREP;si;55/16;hombre;;22,6;;;72;180;-1;44;38;si;si;no;421;nd;andaluz/Málaga;9,758;12,591;;;;;
+P0411;QMH420 (Patient0485);NO_UNAREP;si;55/16;mujer;;7,9;11,4;0,8;57;157;-1;52;31;no;si;Tabique desviado, operada amígdalas, sinusitis crónica;423;nd;Ciudad Real;8,862;12,159;;;;;
+P0412;QMH421(Patient0486);NO_UNAREP;si;55/16;hombre;;0;;;90;186;-1;34;40;no;no;no;423;nd;andaluz/Cordoba;10,184;14,542;;;;;
+P0413;QMH422(Patient0487);NO_UNAREP;si;55/16;mujer;;20;influencia posicional importante;;70;158;-1;60;37;no;si;no;445;nd;andaluz/Jaen;9,455;13,259;;;;;
+P0414;QMH423(Patient0488);NO_UNAREP;si;55/16;hombre;;17,4;21;14;105;171;-1;38;52;antiguo;si;ronco, teleoperador;445;nd;Madrid;10,474;15,213;;;;;
+P0415;QMH424(Patient0489);NO_UNAREP;si;55/16;hombre;;13;8;17;70;164;-1;37;38;si;si;no;421;nd;andaluz/Málaga;9,232;13,792;;;;;
+P0416;QMH425(Patient0490);NO_UNAREP;si;55/16;hombre;;12;20;8;79;172;-1;51;41;si;si;no;421;nd;andaluz/Málaga;9,656;14,46;;;;;
+P0417;QMH426;NO_UNAREP;si;55/16;hombre;;34;40;25;95;172;-1;71;42;no;si;no;422;nd;andaluz/Málaga;9,31;12,666;;;;;
+P0418;QMH427(Patient0492);NO_UNAREP;si;55/16;hombre;;19,3;19;5;93;168;-1;68;45;no;si;no;445;nd;andaluz/Cordoba;9,734;13,691;;;;;
+P0419;QMH428(Patient0493);NO_UNAREP;si;55/16;hombre;;34,3;34,1;34,4;102;167;-1;37;43;no;si;le quitaron un pólipo en las cuerdas;421;nd;andaluz/Málaga;10,293;14,537;;;;;
+P0420;QMH429(Patient0494);NO_UNAREP;si;55/16;hombre;;37;52;34,9;107;174;-1;59;48;no;si;no;421;nd;andaluz/Málaga;10,379;15,208;;;;;
+P0421;QMH430(Patient0495);NO_UNAREP;si;55/16;hombre;;19;19;0;74;170;-1;41;37;no;si;pequeño quiste nariz, afonía;421;nd;andaluz/Málaga;10,042;14,211;;;;;
+P0422;QMH431(Patient0496);NO_UNAREP;si;55/16;mujer;;19,4;29,2;12,6;65;163;-1;42;37;no;si;rinitis;422;nd;andaluz/Málaga;9,815;13,427;;;;;
+P0423;QMH432(Patient0497);NO_UNAREP;si;55/16;hombre;;28,2;42;28,7;78;169;-1;63;39;no;si;;421;nd;5. Nacido en Córdoba, pero lleva muchos años viviendo en Málaga y Mijas, aunque el acento no es ni cordobés ni malagueño.;9,147;12,337;;;;;
+P0424;QMH433(Patient0498);NO_UNAREP;si;55/16;hombre;;0;;;81;181;-1;33;40;no;si;Tabique desviado;429;nd;andaluz/Málaga;8,636;13,78;;;;;
+P0425;QMH434(Patient0499);NO_UNAREP;si;55/16;hombre;;33;;;131;177;-1;42;45;no;si;un cornete inflamado;422;nd;andaluz/Málaga;9,947;14,443;;;;;
+P0426;QMH435(Patient0500);NO_UNAREP;si;55/16;hombre;;20,2;34;8;74;180;-1;39;41;no;si;Cornetes inflamados por alergia y Tabique desviado;422;nd;Madrid;9,211;13,996;;;;;
+P0427;QMH436(Patient0501);NO_UNAREP;si;55/16;hombre;;48,1;;;85;188;-1;49;42;si;si;Hiperreactividad bronquial;422;nd;andaluz/Málaga;9,182;14,51;;;;;
+P0428;QMH437(Patient0502) con CPAP;NO_UNAREP;si;55/16;mujer;;11,7;11,8;11,5;63;164;-1;38;33;no;CPAP;Operada de cornetes CPAP;429;nd;andaluz/Málaga;9,238;11,785;;;;;
+P0429;QMH438(Patient0503);NO_UNAREP;si;55/16;hombre;;37,6;0;38,9;88;180;-1;67;40;no;si;"últimamente nota como si le ""patinaran las cuerdas vocales"".";422;nd;andaluz/Málaga;9,921;14,39;;;;;
+P0430;QMH439 Patient0504 NO IAH;NO_UNAREP;si;55/16;hombre;;;;;131;175;-1;49;45;no;si;Propenso afonía;422;nd;andaluz/Málaga;9,041;15,577;;;;;
+P0431;QMH440;NO_UNAREP;si;55/16;mujer;;5,7;12,9;0,4;67;157;-1;51;36;no;si;no;421;nd;andaluz/Málaga;9,283;12,865;;;;;
+P0432;QMH441(Patient0506);NO_UNAREP;si;55/16;mujer;;24;37;5;62;152;-1;66;35;no;si;no;421;nd;andaluz/Málaga;8,546;12,989;;;;;
+P0433;QMH442(Patient0507);NO_UNAREP;si;55/16;mujer;;10,7;15;4,7;78;164;-1;55;37;no;si;no;422;nd;Madrid;8,767;12,844;;;;;
+P0434;QMH443(Patient0508);NO_UNAREP;si;55/16;hombre;;20;influencia posicional;;86;175;-1;50;39;antiguo;si;Tabique nasal, pólipos afonía a veces;443;nd;andaluz/Málaga;9,418;13,786;;;;;
+P0435;QMH444(Patient0509) CPAP;NO_UNAREP;si;55/16;hombre;;19;35;3;98;183;-1;60;42;si;si;Rinitis CPAP;443;nd;Catalán;9,933;14,967;;;;;
+P0436;QMH445(Patient0510);NO_UNAREP;si;55/16;mujer;;5;influencia posicional;;103;159;-1;48;39;no;no;Propensa afonía, teleoperadora;421;nd;andaluz/Málaga;9,028;13,795;;;;;
+P0437;QMH446(Patient0511);NO_UNAREP;si;55/16;hombre;;21,9;44;8;90;170;-1;58;42;no;si;Cicatriz pulmón (de pequeño);421;nd;andaluz/Málaga;9,393;13,467;;;;;
+P0438;QMH447(Patient0512);NO_UNAREP;si;55/16;hombre;;17;12;21;81;165;-1;64;41;no;si;no;423;nd;andaluz/Málaga;9,263;13,677;;;;;
+P0439;QMH448(Patient0513);NO_UNAREP;si;55/16;mujer;;10;;5,7;68;165;-1;61;34;no;si;no;423;nd;andaluz/Málaga;8,344;12,476;;;;;
+P0440;QMH449(Patient0514);NO_UNAREP;si;55/16;hombre;;15,8;9;17,7;120;182;-1;65;47;antiguo;si;no;421;nd;Cuba;9,438;14,481;;;;;
+P0441;QMH450(Patient0515);NO_UNAREP;si;55/16;hombre;;9,2;20,7;3;79;191;-1;34;39;no;si;no;421;nd;Central;9,184;13,619;;;;;
+P0442;QMH451(Patient0516);NO_UNAREP;si;55/16;mujer;;;;;90;163;-1;32;35;no;si;Asma;421;nd;andaluz/Málaga;9,153;14,198;;;;;
+P0443;QMH452(Patient0517);NO_UNAREP;si;55/16;hombre;;10;;;79;180;-1;39;38;no;no;no;421;nd;andaluz/Málaga;9,148;14,14;;;;;
+P0444;QMH453(Patient0518);NO_UNAREP;si;55/16;hombre;;13,3;28,1;9,6;86;188;-1;54;42;si;si;Tabique desviado;421;nd;andaluz/Málaga;10,244;15,279;;;;;
+P0445;QMH454(Patient0519);NO_UNAREP;si;55/16;hombre;;;;;120;165;-1;48;46;antiguo;si;no;421;nd;andaluz/Málaga;10,34;14,575;;;;;
+P0446;QMH455(Patient0520);NO_UNAREP;si;55/16;hombre;;22;;;118;180;-1;52;47;no;si;Operado de pólipos;421;nd;andaluz/Málaga;10,291;15,311;;;;;
+P0447;QMH456(Patient0521);NO_UNAREP;si;55/16;mujer;;0;;;64;164;-1;49;33;no;si;Alergia;421;nd;andaluz/Málaga;9,363;13,04;;;;;
+P0448;QMH457(Patient0522);NO_UNAREP;si;55/16;mujer;;29,3;31;24;104;149;-1;66;40;no;si;Bronquitis crónica;421;nd;andaluz/Cordoba;9,318;12,995;;;;;
+P0449;QMH458(Patient0523);NO_UNAREP;si;55/16;hombre;;4,1;13,9;0,7;93;186;-1;33;39;si;si;"Tabique nasal desviado.
+Hipertrofia de cornetes.
+Descenso del velo del paladar";421;nd;andaluz/Málaga;10,171;14,805;;;;;
+P0450;QMH459(Patient0524);NO_UNAREP;si;55/16;hombre;;35,5;sin influencia posicional;;145;177;-1;53;46;no;si;Tabique desviado;421;nd;Canarias;10,873;15,448;;;;;
+P0451;QMH460(Patient0525);NO_UNAREP;si;55/16;hombre;;29,9;29,6;30,7;93;169;-1;85;42;no;si;no;421;nd;Barcelona, paciente le costaba repetir porque le faltaba el aire y no quería forzarlo más.;9,402;14,329;;;;;
+P0452;QMH461(Patient0526);NO_UNAREP;si;55/16;mujer;;0;;;67;155;-1;35;35;no;si;alergia y asma;421;nd;andaluz/Málaga;8,481;13,004;;;;;
+P0453;QMH462(Patient0527) CPAP;NO_UNAREP;si;55/16;hombre;;35,9;60,9;20,4;100;184;-1;42;43;no;CPAP;Tabique y CPAP;421;nd;andaluz/Málaga;9,125;13,427;;;;;
+P0454;QMH463(Patient0528);NO_UNAREP;si;55/16;hombre;;4,4;5,8;0,4;65;167;-1;33;37;no;no;no;422;iluminacion;andaluz/Málaga;9,282;13,811;;;;;
+P0455;QMH464(Patient0529);NO_UNAREP;si;55/16;mujer;;10,6;13,3;6,8;69;165;-1;51;34;antiguo;si;propensa a afonía;422;nd;andaluz/Málaga;9,715;12,957;;;;;
+P0456;QMH465(Patient0530);NO_UNAREP;si;55/16;hombre;;4,6;0;4,6;89;178;-1;34;42;si;si;amigdalitis;422;nd;andaluz/Málaga;10,159;13,085;;;;;
+P0457;QMH466(Patient0531);NO_UNAREP;si;55/16;hombre;;22,5;;;80;178;-1;48;42;no;si;no;422;nd;andaluz/Málaga;10,168;14,223;;;;;
+P0458;QMH467(Patient0532);NO_UNAREP;si;55/16;hombre;;15;influencia lateral;5;80;175;-1;48;39;antiguo;si;no;422;nd;andaluz/Málaga;9,355;13,875;;;;;
+P0459;QMH468(Patient0533);NO_UNAREP;si;55/16;mujer;;9;influencia posicional mínima;;65;166;-1;54;33;no;si;propensa a afonía, profesora;421;nd;andaluz/Málaga;9,06;12,785;;;;;
+P0460;QMH469(Patient0534);NO_UNAREP;si;55/16;hombre;;29;influencia posicional mínima;;91;171;-1;57;44;si;si;Propenso afonía;421;nd;andaluz/Málaga;10,235;14,154;;;;;
+P0461;QMH470(Patient0535);NO_UNAREP;si;55/16;hombre;;3,7;;;89;167;-1;42;40;antiguo;si;no;421;nd;andaluz/Málaga;9,953;14,03;;;;;
+P0462;QMH471(Patient0536);NO_UNAREP;si;55/16;hombre;;;;;80;170;-1;61;39;no;si;Tabique algo desviado;421;nd;andaluz/Málaga (Ronda);9,34;14,281;;;;;
+P0463;QMH472(Patient0537);NO_UNAREP;si;55/16;mujer;;0;;;74;153;-1;35;36;no;si;tiene amigdalitis en este momento;444;nd;andaluz/Málaga En este momento la paciente tiene amigdalitis, por eso le cuesta forzar la voz en las grabaciones;8,867;12,699;;;;;
+P0464;QMH473(Patient0538);NO_UNAREP;si;55/16;hombre;;7,6;influencia posicional leve;;73;165;-1;49;38;no;si;tabique desviado;444;nd;andaluz/Málaga;9,444;13,382;;;;;
+P0465;QMH474(Patient0539);NO_UNAREP;si;55/16;hombre;;10,9;28,6;8,3;88;176;-1;47;40;no;si;"tiene una férula de descarga por  oclusismo.""";442;nd;andaluz/Málaga;9,604;13,991;;;;;
+P0466;QMH475(Patient0540);NO_UNAREP;si;55/16;mujer;;0;;;69;161;-1;53;35;antiguo;si;no;422;nd;andaluz/Málaga;8,303;12,656;;;;;
+P0467;QMH476(Patient0541);NO_UNAREP;si;55/16;hombre;;9;influencia posicional mínima;;81;163;-1;58;41;antiguo;si;no;422;nd;"andaluz/Málaga El paciente no lee bien
+, así que las grabaciones las ha hecho casi memorizando,
+ por eso en casi todas las frases hay algún error al leer.
+";9,206;13,352;;;;;
+P0468;QMH477(Patient0542);NO_UNAREP;si;55/16;mujer;;4,1;;;68;154;-1;34;37;si;si;no;422;nd;andaluz/Málaga;8,938;12,672;;;;;
+P0469;QMH478(Patient0543);NO_UNAREP;si;55/16;hombre;;44,8;54,6;8,1;115;193;-1;29;44;si;si;asma deportiva;421;nd;andaluz/Málaga;9,725;16,726;;;;;
+P0470;QMH479(Patient0544) IAH TOTAL NO APARECE;NO_UNAREP;si;55/16;hombre;;;18,5;3,7;78;189;-1;31;36;no;si;no;424;nd;andaluz/Jaen ruido;10,146;13,19;;;;;
+P0471;QMH480(Patient0545);NO_UNAREP;si;55/16;hombre;;10,7;12,3;10;89;165;-1;37;43;no;si;no;444;nd;andaluz/Málaga;10,154;15,125;;;;;
+P0472;QMH481(Patient0546);NO_UNAREP;si;55/16;hombre;;30;32;29,7;87;171;-1;47;41;antiguo;si;Operado de amigdalitis;421;nd;andaluz/Málaga;10,26;14,587;;;;;
+P0473;QMH482(Patient0547);NO_UNAREP;si;55/16;hombre;;9;influencia posicional mínima;;77;170;-1;52;40;si;si;no;421;nd;andaluz/Málaga Ha vivido en Madrid;9,856;13,756;;;;;
+P0474;QMH483(Patient0548);NO_UNAREP;si;55/16;hombre; ;16,3;;;107;170;-1;71;46;no;si;no;421;nd;andaluz/Málaga;9,896;14,553;;;;;
+P0475;QMH484(Patient0549);NO_UNAREP;si;55/16;hombre;;10;;;75;180;-1;34;37;si;si;Tabique desviado;112;nd;andaluz/Málaga;9,254;13,318;;;;;
+P0476;QMH485(Patient0550);NO_UNAREP;si;55/16;hombre;;7,5;9,9;1,4;99;170;-1;36;45;no;si;no;108;nd;andaluz/Málaga;9,83;15,28;;;;;
+P0477;QMH486(Patient0551);NO_UNAREP;si;55/16;hombre;;13,3;36;11,5;105;172;-1;53;45;antiguo;si;no;442;nd;andaluz/Málaga le cuesta leer;8,874;14,31;;;;;
+P0478;QMH487(Patient0552);NO_UNAREP;si;55/16;mujer;;10,2;13,2;10;123;172;-1;39;41;si;si;Cornetes muy grandes y tabique nasal desviado;445;nd;andaluz/Málaga;9,519;12,927;;;;;
+P0479;QMH488(Patient0553);NO_UNAREP;si;55/16;hombre;;64;48;68;125;180;-1;48;45;si;si;no;115;nd;andaluz/Málaga;10,283;14,55;;;;;
+P0480;QMH489(Patient0554);NO_UNAREP;si;55/16;hombre;;39,6;30,9;46;80;157;-1;57;42;no;si;no;421;nd;andaluz/Málaga Nacido en Marruecos, pero desde los 18 años vive en Málaga;9,642;13,167;;;;;
+P0481;QMH490(Patient0555);NO_UNAREP;si;55/16;hombre;;3,9;6;3,7;68;165;-1;66;39;no;si;no;434;nd;andaluz/Málaga;9,141;14,388;;;;;
+P0482;QMH491(Patient0556);NO_UNAREP;si;55/16;hombre;;54;influencia posicional mínima;;145;183;-1;46;50;no;si;no;442;nd;andaluz/Málaga;10,874;15,063;;;;;
+P0483;QMH492(Patient0557);NO_UNAREP;si;55/16;hombre;;29,9;27,8;31,3;92;175;-1;58;41;si;si;Tabique desviado;429;nd;andaluz/Málaga;9,45;14,286;;;;;
+P0484;QMH493(Patient0558);NO_UNAREP;si;55/16;hombre;;35,3;influencia posicional mínima;;88;175;-1;51;41;si;si;no;421;nd;andaluz/Málaga;10,244;13,752;;;;;
+P0485;QMH494(Patient0559);NO_UNAREP;si;55/16;hombre;;40;influencia posicional mínima;;92;182;-1;47;42;no;si;no;428;nd;andaluz/Málaga;9,73;14,323;;;;;
+P0486;QMH495(Patient0560);NO_UNAREP;si;55/16;hombre;;42,2;14,9;46;110;170;-1;52;46;antiguo;si;no;421;nd;andaluz/Málaga Hay dos frases que no he conseguido grabarlas sin que superen el rango de señal al principio;9,486;14,514;;;;;
+P0487;QMH496(Patient0561);NO_UNAREP;si;55/16;hombre;;0;;;65;160;-1;26;37;no;si;Tabique desviado y operado de cornetes;421;nd;andaluz/Málaga;8,639;12,774;;;;;
+P0488;QMH497(Patient0562);NO_UNAREP;si;55/16;mujer;;11,5;18,4;7,8;95;165;-1;57;40;no;si;Acaba de salir de la UVI por una neumonía, propensa a afonía;444;nd;Madrid;8,943;13,429;;;;;
+P0489;QMH498(Patient0563);NO_UNAREP;si;55/16;hombre;;55;influencia posicional mínima;;72;169;-1;68;42;si;si;no;421;nd;Madrid;9,826;14,903;;;;;
+P0490;QMH499(Patient0564);NO_UNAREP;si;55/16;mujer;;22,6;31,7;11,7;65;158;-1;62;36;no;si;tos y ronquera;422;nd;andaluz/Cordoba;9,369;12,931;;;;;
+P0491;QMH500(Patient0565);NO_UNAREP;si;55/16;mujer;;;;;108;162;-1;44;37;no;si;no;442;nd;andaluz/Málaga;9,505;12,885;;;;;
+P0492;QMH501(Patient0566);NO_UNAREP;si;55/16;hombre;;7;influencia posicional significativa;;96;180;-1;44;42;no;si;Operado de cornetes;442;nd;andaluz/Málaga;9,971;14,723;;;;;
+P0493;QMH502(Patient0567);NO_UNAREP;si;55/16;hombre;;;no hay IAH;;100;183;-1;57;41;no;si;Operado de tabique;120;nd;andaluz/Málaga;9,705;14,911;;;;;
+P0494;QMH503(Patient0568);NO_UNAREP;si;55/16;hombre;;;no hay IAH;;78;172;-1;55;37;no;si;no;442;nd;andaluz/Málaga;8,826;13,756;;;;;
+P0495;QMH504(Patient0569);NO_UNAREP;si;55/16;hombre;9;13,7;;;94;182;-1;32;41;no;si;Tabique un poco desviado;442;nd;andaluz/Málaga;10,68;15,325;;;;;
+P0496;QMH505(Patient0570);NO_UNAREP;si;55/16;mujer;;4,2;3,7;5,2;72;170;-1;27;36;no;si;"Operada de vegetaciones y amígdalas.
+Tabique nasal un poco desviado,";444;nd;andaluz/Málaga;8,941;13,708;;;;;
+P0497;QMH506(Patient0571) CPAP ya grabado hace un año;NO_UNAREP;si;55/16;hombre;;0;;;68;161;-1;63;43;no;CPAP;Operado… estaba con CPAP;422;nd;andaluz/Málaga;10,085;13,057;;;;;
+P0498;QMH507(Patient0572);NO_UNAREP;si;55/16;hombre;;4,4;7;3,7;68;170;-1;35;35;si;si;Tabique un poco desviado;442;nd;andaluz/Almería;9,001;12,929;;;;;
+P0499;QMH508(Patient0573);NO_UNAREP;si;55/16;hombre;;9,5;influencia posicional mínima;;105;179;-1;44;46;si;si;Sinusitis;442;nd;andaluz/Málaga;9,426;14,297;;;;;
+P0500;QMH509(Patient0574);NO_UNAREP;si;55/16;hombre;;13,2;;;100;178;-1;59;41;no;si;Tabique un poco desviado y metido en los cornetes;442;nd;andaluz/Málaga;9,825;14,099;;;;;
+P0501;QMH510(Patient0575);NO_UNAREP;si;55/16;hombre;;32,5;70,2;9,2;118;175;-1;52;41;antiguo;si;Problema bronquios y tabique un poco desviado;442;nd;andaluz/Málaga;9,708;14,599;;;;;
+P0502;QMH511(Patient0576);NO_UNAREP;si;55/16;hombre;;54,5;55,1;30,1;80;173;-1;41;41;no;si;no;442;nd;andaluz/Málaga;8,964;14,019;;;;;
+P0503;QMH512(Patient0577);NO_UNAREP;si;55/16;hombre;;14;23;2,3;97;190;-1;45;40;no;si;Bronquitis asmática;421;nd;andaluz/Málaga;10,027;14,487;;;;;
+P0504;"Desde 
+QMH513(Patient578)
+se graba DIALOGO ";NO_UNAREP;si;55/16;hombre;;36,6;43,7;24,2;95;177;-1;39;42;no;si;;442;nd;andaluz/Málaga;9,764;14,288; ; ;;;
+P0505;QMH514(Patient0579);NO_UNAREP;si;55/16;hombre;;;no hay IAH;;103;185;-1;55;43;no;si;Tabique desviado;442;nd;Árabe;10,206;14,417;;;;;
+P0506;"QMH515(Patient0580)
+Se añaden preguntas cansado / concentración";NO_UNAREP;si;55/16;hombre;;64,5;45,7;65,7;92;172;-1;62;44;no;si;Hiperstrofia de cornetes;442;nd;Melilla;10,244;14,415;no;no;;;
+P0507;QMH516(Patient0581)  es el Patient0511 usa CPAP (437);NO_UNAREP;si;55/16;hombre;;19,6;37;4;79;170;-1;58;40;no;CPAP;no;422;nd;andaluz/Málaga;9,775;13,5;no;no;;;
+P0508;QMH517(Patient0582) repite porque ha perdido 45 kilos;NO_UNAREP;si;55/16;mujer;;0,7;0;0,8;77;163;-1;44;33;antiguo;CPAP;Asma bronquial;421;nd;andaluz/Málaga;9,006;12,603;no;no;;;
+P0509;QMH518(Patient0583);NO_UNAREP;si;55/16;mujer;;0;;;50;164;-1;39;30;no;si;no;442;nd;andaluz/Málaga;9,119;12,099;si;no;;;
+P0510;QMH519(Patient0584);NO_UNAREP;si;55/16;mujer;;1,8;influencia posicional significativa;;65;165;-1;49;33;antiguo;si;"Operada de cornetes
+tabique desviado";422;nd;andaluz/Málaga;8,891;12,996;si;si;;;
+P0511;QMH520(Patient0585);NO_UNAREP;si;55/16;hombre;;8;9,8;0,6;105;190;-1;39;43;no;si;Tabique desviado y problemas respiratorios;422;nd;andaluz/Málaga;8,891;13,959;si;no;;;
+P0512;QMH521(Patient0586);NO_UNAREP;si;55/16;hombre;;;no hay IAH;;72;165;-1;69;40;no;si;no;431;nd;Francés;8,858;13,253;si;no;;;
+P0513;QMH522(Patient0587);NO_UNAREP;si;55/16;hombre;;15,6;52;12,3;87;173;-1;71;43;si;si;Pólipos nasales y tabique desviado;445;nd;Murcia;9,342;14,157;no;si;;;
+P0514;QMH523(Patient0588);NO_UNAREP;si;55/16;hombre;;19,4;32;19;78;170;-1;58;42;si;si;no;444;nd;andaluz/Málaga;9,285;12,387;no;no;;;
+P0515;QMH524(Patient0589);NO_UNAREP;si;55/16;hombre;;2,6;;;61;172;-1;29;35;no;si;Tabique un poco desviado;445;nd;andaluz/Málaga;9,259;13,028;no;no;;;
+P0516;QMH525(Patient0590);NO_UNAREP;si;55/16;hombre;13;0;;;75;172;-1;42;39;antiguo;si;Lesión cartílago nariz;444;nd;andaluz/Málaga;8,925;13,525;si;si;;;
+P0517;QMH526(Patient0591);NO_UNAREP;si;55/16;hombre;;35,7;49;30;93;170;-1;61;42;si;si;Uvula descolgada y le tapona el orificio nasal;444;nd;andaluz/Málaga;9,332;12,784;no;no;;;
+P0518;QMH527(Patient0592) usa CPAP desde enero y repite la prueba;NO_UNAREP;si;55/16;hombre;;11,2;15,4;6,2;92;168;-1;21;42;no;si;no;444;nd;andaluz/Málaga;9,709;14,367;si;si;;;
+P0519;QMH528(Patient0593);NO_UNAREP;si;55/16;hombre;;37,3;54;21;97;170;-1;40;45;si;si;no;444;nd;andaluz/Málaga;10,396;15,273;no;si;;;
+P0520;QMH529(Patient0594) usa CPAP;NO_UNAREP;si;55/16;mujer;;45,9;7,9;66,5;85;150;-1;65;43;no;CPAP;Asma;444;nd;"andaluz/Málaga-Granada
+dificultad para leer y vocales";9,135;13,773;no;no;;;
+P0521;QMH530(Patient0595);NO_UNAREP;si;55/16;hombre;;24,9;26;23;122;183;-1;45;45;no;si;Operado de tabique nasal;442;nd;Asturias;9,618;15,046;si;no;;;
+P0522;QMH531(Patient0596);NO_UNAREP;si;55/16;hombre;;6,1;;;100;175;-1;35;41;si;si;resfriado al hacer la prueba;443;nd;andaluz/Málaga;9,917;14,303;si;si;;;
+P0523;QMH532(Patient0597);NO_UNAREP;si;55/16;mujer;;44,7;66;30;100;160;-1;46;38;antiguo;si;Pólipo en las cuerdas vocales;444;nd;andaluz/Málaga;9,413;12,788;no;no;;;
+P0524;QMH533(Patient0598);NO_UNAREP;si;55/16;mujer;;7;;;73;158;-1;51;37;no;si;Asma y fibromialgia;424;nd;andaluz/Granada;10,05;12,86;si;si;;;
+P0525;QMH534(Patient0599);NO_UNAREP;si;55/16;hombre;;19,7;37,7;7,8;61;168;-1;32;36;no;si;no;421;nd;andaluz/Málaga;9,343;13,241;no;no;;;
+P0526;QMH535(Patient0600);NO_UNAREP;si;55/16;hombre;;;no hay IAH;;82;173;-1;41;42;si;si;Tabique desviado e hipertrofia de cornetes;445;nd;andaluz/Málaga;9,623;12,912;si;si;;;
+P0527;QMH536(Patient0601);NO_UNAREP;si;55/16;hombre;;4,6;0;0;115;195;-1;42;48;si;si;Tabique desviado;442;nd;andaluz/Málaga;9,937;15,475;si;si;;;
+P0528;QMH537(Patient0602);NO_UNAREP;si;55/16;mujer;;1,7;;;103;166;-1;31;38;no;si;no;442;nd;andaluz/Málaga;9,602;12,714;si;si;;;
+P0529;QMH538(Patient0603);NO_UNAREP;si;55/16;mujer;;15,4;31,5;12,7;65;171;-1;68;37;no;si;afónica al hacerse la prueba;422;nd;andaluz/Málaga;8,785;12,743;si;si;;;
+P0530;QMH539(Patient0604);NO_UNAREP;si;55/16;hombre;;25;Fuerte influencia posicional;;86;180;-1;43;38;no;si;Tabique desviado;444;nd;andaluz/Málaga;9,448;13,371;no;no;;;
+P0531;QMH540(Patient0605);NO_UNAREP;si;55/16;hombre;;13,5;0;0;66;178;-1;38;35;si;si;Pólipos en la nariz;445;nd;andaluz/Málaga;9,134;12,97;si;si;;;
+P0532;QMH541(Patient0606);NO_UNAREP;si;55/16;hombre;;45;85;35;100;172;-1;49;44;antiguo;si;ha sufrido un infarto;442;nd;andaluz/Málaga;10,451;13,895;si;no;;;
+P0533;QMH542(Patient0607);NO_UNAREP;si;55/16;mujer;;6,8;;;68;168;-1;64;33;no;si;Tabique desviado y nariz estrecha;442;nd;andaluz/Málaga;8,732;12,444;si;no;;;
+P0534;QMH543(Patient0608);NO_UNAREP;si;55/16;mujer;;31;31;30;70;155;-1;61;34;antiguo;si;Tabique desviado y afonía profesora;442;nd;andaluz/Jaen;8,432;12,673;si;si;;;
+P0535;QMH544(Patient0609);NO_UNAREP;si;55/16;hombre;;61,1;43;62,2;99;176;-1;70;45;si;si;no;442;nd;andaluz/Sevilla;9,484;14,195;no;no;;;
+P0536;QMH545(Patient0610);NO_UNAREP;si;55/16;mujer;;74,3;;;116;156;-1;62;42;no;si;no;442;nd;Asturias;9,924;14,041;si;si;;;
+P0537;QMH546(Patient0611);NO_UNAREP;si;55/16;hombre;;27,6;54;15;79;170;-1;65;42;no;si;no;422;nd;Francés;10,378;13,04;si;no;;;
+P0538;QMH547(Patient0612);NO_UNAREP;si;55/16;hombre;;2,6;1;3;75;178;-1;54;38;no;no;no;442;nd;andaluz/Málaga;9,204;14,682;no;no;;;
+P0539;QMH548(Patient0613);NO_UNAREP;si;55/16;hombre;;;no hay IAH;;97;180;-1;52;42;antiguo;no;Tabique nasal desviado que le presioena un cornete;422;nd;andaluz/Jaen;10,176;13,827;si;no;;;
+P0540;QMH549(Patient0614);NO_UNAREP;si;55/16;mujer;;;no hay IAH;;67;151;-1;59;38;no;si;no;440;nd;andaluz/Málaga;9,831;12,973;no;no;;;
+P0541;QMH550(Patient0615);NO_UNAREP;si;55/16;hombre;;14,4;6;29;106;167;-1;47;42;no;si;Tabique nasal desviado;421;nd;Madrid;9,61;13,263;si;no;;;
+P0542;QMH551(Patient0616);NO_UNAREP;si;55/16;hombre;;31,8;40;10;80;168;-1;57;40;no;si;no;422;nd;andaluz/Málaga;9,335;14,367;si;no;;;
+P0543;QMH552(Patient0617);NO_UNAREP;si;55/16;hombre;;23,4;74;18,7;92;181;-1;55;41;no;si;no;421;nd;Cántabro-Andaluz;10,427;14,68;no;no;;;
+P0544;QMH553(Patient0618);NO_UNAREP;si;55/16;hombre;;63,1;58;66;67;158;-1;80;43;antiguo;si;no;421;nd;Rioja;9,478;14,609;si;no;;;
+P0545;QMH554(Patient0619);NO_UNAREP;si;55/16;hombre;;1,4;;;73;173;-1;47;38;si;si;no;444;nd;andaluz/Málaga;9,412;13,984;no;no;;;
+P0546;QMH555(Patient0620);NO_UNAREP;si;55/16;mujer;;9,9;;;82;162;-1;53;36;antiguo;si;Tabique nasal desviado;442;nd;andaluz/Jaen;8,946;12,69;si;si;;;
+P0547;QMH556(Patient0621);NO_UNAREP;si;55/16;mujer;;7,2;;;60;158;-1;70;33;no;si;no;424;nd;andaluz/Málaga;9,155;13,315;si;no;;;
+P0548;QMH557(Patient0622) usa CPAP;NO_UNAREP;si;55/16;hombre;;6,9;15;3;90;175;-1;75;44;antiguo;CPAP;ha sufrido un infarto;442;nd;Ciudad Real;9,435;14,124;no;si;;;
+P0549;QMH558(Patient0623);NO_UNAREP;si;55/16;hombre;;;no hay IAH;;83;184;-1;32;37;no;si;Operado de vegetaciones, cornetes inflamados ;442;nd;andaluz/Málaga;9,616;13,645;si;no;;;
+P0550;QMH559(Patient0624);NO_UNAREP;si;55/16;hombre;;13,3;40;8;78;176;-1;39;39;si;si;no;442;nd;andaluz/Málaga;9,672;13,824;si;no;;;
+P0551;QMH560(Patient0625);NO_UNAREP;si;55/16;mujer;;36;minima influencia posicional;;60;150;-1;63;35;no;si;Operada de cornetes;445;nd;andaluz/Málaga;8,109;11,846;si;no;;;
+P0552;QMH561(Patient0626);NO_UNAREP;si;55/16;hombre;;3,3;7;1;70;162;-1;53;37;no;si;Tabique nasal desviado;443;nd;andaluz/Málaga;8,966;13,992;no;si;;;
+P0553;QMH562(Patient0627);NO_UNAREP;si;55/16;mujer;;11,7;;;60;164;-1;65;34;no;si;propensa afonía;421;nd;andaluz/Málaga;8,969;12,707;si;no;;;
+P0554;QMH563(Patient0628);NO_UNAREP;si;55/16;hombre;;27;63;20,3;103;175;-1;40;43;antiguo;si;no;421;nd;Madrid-Cataluña;9,781;14,004;si;no;;;
+P0555;QMH564(Patient0629);NO_UNAREP;si;55/16;mujer;;31;minima influencia posicional;;78;165;-1;59;37;no;si;no;421;nd;andaluz/Málaga es de Badajoz pero 35 años en Málaga;9,319;13,347;si;si;;;
+P0556;QMH565(Patient0630);NO_UNAREP;si;55/16;mujer;;0,7;;;81;158;-1;40;35;no;si;propensa afonía;421;nd;andaluz/Málaga;8,568;12,446;si;no;;;
+P0557;QMH566(Patient0631);NO_UNAREP;si;55/16;hombre;;30;Influencia posicional muy importante con IAH en decúbito lateral de 6.4;;80;174;-1;61;42;antiguo;si;no;423;nd;andaluz/Sevilla;9,215;14,002;no;no;;;
+P0558;QMH567(Patient0632);NO_UNAREP;si;55/16;hombre;;30;minima influencia posicional;;94;173;-1;68;42;si;si;no;443;nd;andaluz/Málaga;9,636;14,004;si;no;;;
+P0559;QMH568(Patient0633);NO_UNAREP;si;55/16;hombre;;;PERDIDO;;88;172;-1;66;41;si;si;Operado hace 20 años de apnea;442;nd;De la India, pero lleva 50 años en Málaga;9,869;14,25;si;si;;;
+P0560;QMH569(Patient0634);NO_UNAREP;si;55/16;mujer;;5,3;4,3;5,8;No quiere saberlo;167;-1;19;39;no;si;no;442;nd;andaluz/Málaga;9,058;13,79;si;no;;;
+P0561;QMH570(Patient0635);NO_UNAREP;si;55/16;hombre;;3,8;2,8;5,5;75;180;-1;23;40;si;si;Tabique nasal desviado;442;nd;andaluz-Madrid;9,696;14,292;no;no;;;
+P0562;QMH571(Patient0636);NO_UNAREP;si;55/16;mujer;;;PERDIDO;;70;159;-1;55;37;antiguo;si;no;422;nd;andaluz/Málaga;8,44;12,613;si;no;;;
+P0563;QMH572(Patient0637);NO_UNAREP;si;55/16;hombre;;45,3;minima influencia posicional;;80;180;-1;70;40;no;si;Un cornete grande;422;nd;andaluz/Málaga;9,24;13,913;si;si;;;
+P0564;QMH573(Patient0638);NO_UNAREP;si;55/16;hombre;;;PERDIDO;;115;199;-1;56;46;si;si;no;421;nd;andaluz/Málaga;9,741;14,447;si;no;;;
+P0565;QMH574(Patient0639);NO_UNAREP;si;55/16;hombre;;56,5;;;104;183;-1;47;45;si;si;no;421;nd;Barcelona;9,866;14,722;no;no;;;
+P0566;QMH575(Patient0640);NO_UNAREP;si;55/16;hombre;;17,2;22,3;15,7;77;164;-1;70;43;no;si;problemas garganta tragar  a veces afónico;422;nd;andaluz/Málaga;8,511;13,49;si;si;;;
+P0567;QMH576(Patient0641);NO_UNAREP;si;55/16;mujer;;14;Influencia posicional leve;;73;160;-1;68;36;antiguo;si;propensa afonía;422;nd;Colombia ;9,263;12,437;si;no;;;
+P0568;QMH577(Patient0642);NO_UNAREP;si;55/16;mujer;;6;;;80;165;-1;77;37;no;si;Bronquitis frecuentes y tabique nasal desviado;442;nd;Pontevedra;8,336;13,06;si;si;;;
+P0569;QMH578(Patient0643);NO_UNAREP;si;55/16;hombre;;11,1;;;73;178;-1;47;37;si;si;Tabique nasal desviado y a veces afonía;442;nd;andaluz/Málaga;9;13,255;si;no;;;
+P0570;QMH579(Patient0644);NO_UNAREP;si;55/16;hombre;;14,3;99,8;10;80;180;-1;59;42;no;si;no;438;nd;andaluz/Málaga;9,367;13,404;no;no;;;
+P0571;QMH580(Patient0645);NO_UNAREP;si;55/16;hombre;;57,1;61,4;56,3;88;171;-1;52;41;no;si;no;442;nd;andaluz/Málaga;8,795;13,826;si;si;;;
+P0572;QMH581(Patient0646);NO_UNAREP;si;55/16;mujer;;5,7;Mala eficiencia de sueño durante el estudio, al final del estudio aparecen apneas;;64;154;-1;58;37;no;si;Tabique nasal desviado y cornetes un poco inflamados;428;nd;andaluz/Málaga;9,306;12,984;si;no;;;
+P0573;QMH582(Patient0647);NO_UNAREP;si;55/16;hombre;;23;Mínima influencia posicional. IAH decúbito lateral de 16;;82;177;-1;41;40;si;si;Anginas hipertróficas;442;nd;Barcelona-Málaga;9,843;14,52;si;si;;;
+P0574;QMH583(Patient0648) usa CPAP;NO_UNAREP;si;55/16;hombre;;20,7;8;30;90;179;-1;82;41;antiguo;CPAP;Tiene la capacidad pulmonar al 40% y tabique desviado;442;nd;Barcelona;9,467;13,892;si;si;;;
+P0575;QMH584(Patient0649) usa CPAP;NO_UNAREP;si;55/16;hombre;;34;;;75;170;-1;55;36;no;CPAP;no;442;nd;andaluz/Málaga;8,75;13,89;no;si;;;
+P0576;QMH585(Patient0650);NO_UNAREP;si;55/16;hombre;;34,3;50;34;70;172;-1;75;38;no;si;no;442;nd;Madrid;9,096;14,409;si;no;;;
+P0577;QMH586(Patient0651);NO_UNAREP;si;55/16;hombre;;22;;28;75;163;-1;61;40;antiguo;si;Tabique nasal desviado;422;nd;andaluz/Málaga;9,572;13,901;si;no;;;
+P0578;QMH587(Patient0652);NO_UNAREP;si;55/16;hombre;;0;;;87;187;-1;22;39;si;si;Tabique nasal desviado;442;nd;andaluz/Málaga;9,191;14,002;si;si;;;
+P0579;QMH588(Patient0653);NO_UNAREP;si;55/16;mujer;;6,8;7,4;6,4;98;170;-1;46;37;no;si;Operada senos nasales;422;nd;andaluz/Málaga;9,652;13,319;si;no;;;
+P0580;QMH589(Patient0654);NO_UNAREP;si;55/16;hombre;;30;minima influencia posicional;;80;174;-1;74;38;antiguo;no;EPOC;442;nd;Argentino ;9,298;14,816;si;no;;;
+P0581;QMH590(Patient0655);NO_UNAREP;si;55/16;mujer;;2,8;4,3;2,4;90;165;-1;27;38;no;si;no;442;nd;andaluz/Málaga;9,197;13,466;si;si;;;
+P0582;QMH591(Patient0656);NO_UNAREP;si;55/16;hombre;;0;;;67;164;-1;36;36;si;si;no;421;nd;andaluz/Granada;8,923;13,088;si;si;;;
+P0583;QMH592(Patient0657);NO_UNAREP;si;55/16;mujer;;0;;;98;178;-1;40;37;si;si;no;442;nd;andaluz/Málaga;9,256;13,02;si;si;;;
+P0584;QMH593(Patient0658);NO_UNAREP;si;55/16;hombre;;7,5;;10;67;180;-1;39;37;si;si;Tabique nasal desviado;431;nd;Vitoria;9,719;13,216;si;si;;;
+P0585;QMH594(Patient0659);NO_UNAREP;si;55/16;hombre;;15;32;5;89;179;-1;45;42;no;si;Asma;431;nd;andaluz/Málaga;9,975;14,347;si;si;;;
+P0586;QMH595(Patient0660);NO_UNAREP;si;55/16;hombre;;14,7;35;3,8;81;182;-1;67;43;antiguo;si;no;425;nd;andaluz/Málaga;9,234;14,587;no;no;;;
+P0587;QMH596(Patient0661);NO_UNAREP;si;55/16;hombre;;11,7;18;5,3;90;165;-1;52;41;no;si;no;442;nd;andaluz/Málaga;9,66;14,199;si;si;;;
+P0588;QMH597(Patient0662);NO_UNAREP;si;55/16;hombre;;16,1;46;15,9;79;172;-1;58;40;si;si;Laringitis crónica.;442;nd;Italiano;8,81;13,548;no;no;;;
+P0589;QMH598(Patient0663);NO_UNAREP;si;55/16;mujer;;33,9;44;19;69;160;-1;56;36;no;si;no;442;nd;andaluz/Málaga;8,943;12,523;si;si;;;
+P0590;QMH599(Patient0664);NO_UNAREP;si;55/16;hombre;;31,3;;;96;177;-1;35;44;no;si;no;421;nd;andaluz/Málaga;9,746;13,525;si;no;;;
+P0591;QMH600(Patient0665);NO_UNAREP;si;55/16;mujer;;0;;;78;171;-1;44;36;antiguo;si;no;442;nd;andaluz/Málaga;9,23;12,401;no;no;;;
+P0592;QMH601(Patient0666);NO_UNAREP;si;55/16;mujer;;22,5;30,8;9,2;73;171;-1;51;34;antiguo;si;Tabique nasal desviado;304;nd;andaluz/Málaga;8,95;12,892;si;no;;;
+P0593;QMH602(Patient0667);NO_UNAREP;si;55/16;hombre;;10;;8;120;183;-1;40;44;si;si;Operado de vegetaciones de pequeño;421;nd;andaluz/Málaga;9,282;14,895;si;si;;;
+P0594;QMH603(Patient0668);NO_UNAREP;si;55/16;hombre;;10;;3;92;180;-1;54;42;no;si;Operado de tiroides;432;nd;andaluz/Málaga;10,117;14,792;si;no;;;
+P0595;QMH604(Patient0669);NO_UNAREP;si;55/16;hombre;18;27;;5;135;181;-1;40;45;antiguo;si;Asma;422;nd;Madrid;9,831;BARBA;si;si;;;
+P0596;QMH605(Patient0670);NO_UNAREP;si;55/16;hombre;;9,2;No influencia posicinal;;98;170;-1;60;44;antiguo;si;Principio de enfisemia pulmonar;422;nd;Málaga-Madrid;9,098;13,838;no;no;;;
+P0597;QMH606(Patient0671);NO_UNAREP;si;55/16;mujer;;11,8;minima influencia posicional;;79;161;-1;66;40;antiguo;si;Operada de cornetes;422;nd;Ciudad Real-Madrid-Málaga;9,694;13,351;si;no;;;
+P0598;QMH607(Patient0672) ULTIMA ACT SONIA;NO_UNAREP;si;55/16;hombre;;37,8;57,7;35,5;75;163;-1;65;38;no;si;no;442;nd;Canarias;9,726;14,22;no;no;;;
+P0599;QMH608(Patient0673);NO_UNAREP;si;55/16;mujer;;10;13,3;0,5;84;165;-1;41;38;si;si;Tiroides inflamada con nódulos;442;nd;andaluz/Málaga;8,947;13,692;si;si;;;
+P0600;QMH609(Patient0674);NO_UNAREP;si;55/16;hombre;;35,2;minima influencia posicional;;110;169;-1;58;47;si;si;Bronquitis crónica;442;nd;andaluz/Málaga;10,741;13,72;si;no;;;
+P0601;QMH610(Patient0675);NO_UNAREP;si;55/16;hombre;;;PERDIDO;;77;173;-1;71;42;no;si;no;421;nd;andaluz/Granada;9,714;13,562;no;no;;;
+P0602;QMH611(Patient0676);NO_UNAREP;si;55/16;hombre;;40;41;39;89;172;-1;64;41;no;si;no;422;nd;andaluz/Granada;9,451;13,743;no;si;;;
+P0603;QMH612(Patient0677);NO_UNAREP;si;55/16;hombre;;;PERDIDO;;79;174;-1;51;40;antiguo;si;"EPOC úvula hipertrófica cornetes grandes
+propenso afonía por su trabajo";442;nd;Catalán;10,141;14,333;no;no;;;
+P0604;QMH613(Patient0678);NO_UNAREP;si;55/16;hombre;;27,3;45;15;109;173;-1;41;49;no;si;no;442;nd;andaluz/Málaga;11;14,3;si;si;;;
+P0605;QMH614(Patient0679);NO_UNAREP;si;55/16;hombre;;16;50;4;77;174;-1;57;38;antiguo;si;no;441;nd;andaluz/Málaga-Granada ;9,941;14,26;no;no;;;
+P0606;QMH615(Patient0680);NO_UNAREP;si;55/16;hombre;;42,3;;27,9;84;175;-1;49;39;si;si;no;442;nd;andaluz/Málaga;8,913;14,053;si;si;;;
+P0607;QMH616(Patient0681);NO_UNAREP;si;55/16;hombre;;1,8;;;87;177;-1;34;43;no;si;no;443;nd;andaluz/Málaga;9,41;14,023;si;si;;;
+P0608;QMH617(Patient0682);NO_UNAREP;si;55/16;mujer;;24,7;23;33;105;159;-1;48;37;antiguo;no;no;442;nd;andaluz/Málaga;9,437;13,379;si;si;;;
+P0609;QMH618(Patient0683);NO_UNAREP;si;55/16;hombre;;11,7;13;11;80;188;-1;36;40;no;si;"Tabique nasal desviado.
+Cornetes grandes y úvula un poco engrosada";442;nd;andaluz/Málaga;9,429;14,739;si;si;;;
+P0610;QMH619(Patient0684);NO_UNAREP;si;55/16;mujer;;31,1;;48;59;151;-1;58;34;no;si;propensa afonía;442;nd;andaluz/Málaga;8,472;12,888;si;si;;;
+P0611;QMH620(Patient0685);NO_UNAREP;si;55/16;mujer;;0;;;70;170;-1;51;33;no;si;propensa afonía;442;nd;andaluz/Málaga;8,531;12,889;si;si;;;
+P0612;QMH621(Patient0686);NO_UNAREP;si;55/16;hombre;;102;100;103;160;184;-1;35;50;no;si;no;421;nd;andaluz/Málaga;9,939;15,068;no;no;;;
+P0613;QMH622(Patient0687);NO_UNAREP;si;55/16;hombre;;10,4;27;8;87;182;-1;20;37;no;si;"Vegetaciones.
+Tabique nasal desviado.
+Hipertrofia en amígdalas.
+Necesita operarse de cornetes";441;nd;andaluz/Málaga;9,299;13,644;no;no;;;
+P0614;QMH623(Patient0688);NO_UNAREP;si;55/16;hombre;;44,7;46;43;125;170;-1;76;43;no;si;no;442;nd;andaluz/Córdoba;9,186;15,082;si;si;;;
+P0615;QMH624(Patient0689);NO_UNAREP;si;55/16;hombre;;2,8;3,6;2,1;96;183;-1;36;42;no;si;Rinitis vasomotora y alérgica;445;nd;andaluz/Málaga;9,201;14,285;si;si;;;
+P0616;QMH625(Patient0690) usa CPAP;NO_UNAREP;si;55/16;hombre;;50;;;76;152;-1;64;42;antiguo;CPAP;no;445;nd;andaluz/Málaga;8,776;12,745;antesCPAP;si;;;
+P0617;QMH626(Patient0691);NO_UNAREP;si;55/16;hombre;;16,6;21,2;13,1;71;162;-1;81;40;no;si;no;422;nd;León;9,658;14,539;si;no;;;
+P0618;QMH627(Patient0692) usa CPAP;NO_UNAREP;si;55/16;hombre;;19,4;;;101;181;-1;39;42;no;CPAP;Tabique nasal desviado;445;nd;andaluz/Málaga;9,427;14,215;si;si;;;
+P0619;QMH628(Patient0693);NO_UNAREP;si;55/16;mujer;;13,8;11;32,1;48;162;-1;46;31;si;si;Cornetes mal y tabique nasal desviado.;422;nd;andaluz/Málaga;9,126;12,004;si;no;;;
+P0620;QMH629(Patient0694);NO_UNAREP;si;55/16;hombre;;16,2;31;8;105;180;-1;49;45;antiguo;si;Propenso afonía;444;nd;andaluz/Málaga;10,588;14,212;no;no;;;
+P0621;QMH630(Patient0695);NO_UNAREP;si;55/16;hombre;;2,6;1,3;5,2;80;178;-1;32;38;si;no;Hipertensión;444;nd;Marroquí sin mucho acento;9,929;14,022;si;no;;;
+P0622;QMH631(Patient0696);NO_UNAREP;si;55/16;mujer;;11;4;18;90;157;-1;54;41;si;si;propensa afonía;444;nd;Melilla;9,669;13,007;si;no;;;
+P0623;QMH632(Patient0697);NO_UNAREP;si;55/16;hombre;;36;44;23;78;168;-1;46;40;no;si;no;445;nd;andaluz/Málaga;9,173;14,007;no;si;;;
+P0624;QMH633(Patient0698);NO_UNAREP;si;55/16;mujer;;;NO disponible;;125;156;-1;58;45;antiguo;si;no;443;nd;andaluz/Málaga;9,866;13,623;si;si;;;
+P0625;QMH634(Patient0699);NO_UNAREP;si;55/16;hombre;;7,8;33,6;1,4;73;168;-1;65;40;antiguo;si;Congestión permanente y resfriado frecuente;444;nd;Argentino ;9,081;15,215;si;si;;;
+P0626;QMH635(Patient0700);NO_UNAREP;si;55/16;hombre;;19,7;30,4;10,3;130;174;-1;50;44;si;si;bronquitis crónica;442;nd;andaluz/Málaga;8,841;15,413;si;si;;;
+P0627;QMH636(Patient0701);NO_UNAREP;si;55/16;hombre;;33,1;4;19;85;175;-1;63;45;no;si;no;442;nd;andaluz/Jaen;9,701;14,013;si;si;;;
+P0628;QMH637(Patient0702);NO_UNAREP;si;55/16;mujer;;2,7;19,2;0,8;62;163;-1;27;34;no;no;no;445;nd;andaluz/Málaga;8,714;13,509;si;si;;;
+P0629;QMH638(Patient0703);NO_UNAREP;si;55/16;hombre;;30;;23;96;174;-1;50;44;si;si;proprenso afonía;442;nd;andaluz/Málaga;9,338;15,478;si;si;;;
+P0630;QMH639(Patient0704);NO_UNAREP;si;55/16;hombre;;17,8;16;22;70;170;-1;33;39;si;si;Conducto auditivo pequeño;443;nd;andaluz/Málaga;9,032;14,155;si;si;;;
+P0631;QMH640(Patient0705);NO_UNAREP;si;55/16;mujer;;;;;62;160;-1;59;35;si;si;"Le cuesta respirar cuando le dá algún ataque de alergia.
+Tabique nasal desviado y cornetes inflamados";442;nd;andaluz/Málaga;9,251;13,664;no;si;;;
+P0632;QMH641(Patient0706);NO_UNAREP;si;55/16;mujer;;0;;;64;150;-1;54;35;si;si;no;442;nd;andaluz/Málaga;8,955;13,31;si;si;;;
+P0633;QMH641(Patient0707) mismo código 641 ???;NO_UNAREP;si;55/16;hombre;;84,3;75,8;93,6;96;171;-1;49;45;si;si;propeso afonía;425;nd;andaluz/Málaga;10,366;13,711;si;no;;;
+P0634;QMH643(Patient0708);NO_UNAREP;si;55/16;hombre;;4,9;"Apneas obstructivas:3; Apneas centrales:1; Hipoapneas:26";;103;184;-1;49;43;si;si;no;442;nd;andaluz/Málaga;9,761;14,254;si;no;;;
+P0635;QMH644(Patient0709);NO_UNAREP;si;55/16;hombre;;;NO disponible;;89;193;-1;27;38;si;si;no;421;nd;andaluz/Málaga;9,254;14,033;si;no;;;
+P0636;QMH645(Patient0710) usa CPAP;NO_UNAREP;si;55/16;hombre;;;;;84;182;-1;39;38;no;CPAP;Operado de tabique y cornetes;442;nd;Paraguay;9,199;13,009;si;si;;;
+P0637;QMH646(Patient0711);NO_UNAREP;si;55/16;hombre;;9;;4,7;90;180;-1;48;42;si;si;Tabique nasal desviado;442;nd;andaluz/Málaga;9,464;14,81;no;no;;;
+P0638;QMH647(Patient0712);NO_UNAREP;si;55/16;mujer;;;;;71;170;-1;44;34;no;si;Tabique nasal desviado;442;nd;andaluz/Málaga;9,111;12,901;si;si;;;
+P0639;QMH648(Patient0713);NO_UNAREP;si;55/16;mujer;;0,4;2;0,2;78;150;-1;59;40;si;si;no;442;nd;andaluz/Málaga;9,912;13,056;si;no;;;
+P0640;QMH649(Patient0714);NO_UNAREP;si;55/16;hombre;;45,7;45,7;57,2;90;179;-1;67;43;no;si;propeso afonía;441;nd;andaluz/Málaga;9,4;15,091;si;no;;;
+P0641;QMH650(Patient0715);NO_UNAREP;si;55/16;mujer;;;NO disponible;;80;166;-1;44;36;no;si;Asma y operada de cornetes y propensa afonía;443;nd;andaluz/Málaga;9,464;12,779;si;si;;;
+P0642;QMH651(Patient0716);NO_UNAREP;si;55/16;hombre;;20,3;43,9;17,8;75;168;-1;51;39;no;si;no;442;nd;andaluz/Málaga;8,917;14,792;si;si;;;
+P0643;QMH652(Patient0717);NO_UNAREP;si;55/16;hombre;;2,1;1,3;3,8;62;169;-1;49;37;antiguo;si;propeso afonía por su trabajo profesor;442;nd;andaluz/Málaga;9,465;14,137;si;si;;;
+P0644;QMH653(Patient0718);NO_UNAREP;si;55/16;mujer;;21,3;30,2;11,6;85;154;-1;63;40;no;si;"Tuvo un neumotorax y tabique desviado
+propensa a afonia";442;nd;andaluz/Málaga;9,162;12,839;si;si;;;
+P0645;QMH654(Patient0719);NO_UNAREP;si;55/16;mujer;;9,6;6,6;12,8;80;162;-1;41;37;si;si;Asma;442;nd;andaluz/Málaga;9,293;13,583;si;si;;;
+P0646;QMH655(Patient0720);NO_UNAREP;si;55/16;hombre;;6,1;11,2;1,9;83;169;-1;69;44;no;si;no;442;nd;andaluz/Málaga;9,85;15,547;si;no;;;
+P0647;QMH656(Patient0721);NO_UNAREP;si;55/16;hombre;;0;;;67;170;-1;64;41;si;no;Operado cornetes y propenso afonia;432;nd;Gallego;9,676;14,435;no;si;;;
+P0648;QMH657(Patient0722);NO_UNAREP;si;55/16;hombre;;45;;60;84;170;-1;45;41;no;si;no;443;nd;andaluz/Málaga;9,222;13,176;si;si;;;
+P0649;QMH658(Patient0723);NO_UNAREP;si;55/16;mujer;;22;;10;102;154;-1;63;41;no;si;Asma;442;nd;andaluz/Cádiz;9,426;13,415;si;no;;;
+P0650;QMH659(Patient0724);NO_UNAREP;si;55/16;hombre;;;;;100;170;-1;54;46;si;si;no;442;nd;andaluz/Málaga;9,974;14,222;si;no;;;
+P0651;QMH660(Patient0725) Ha estado usando CPAP pero no lo usa desde hace meses;NO_UNAREP;si;55/16;hombre;;10,2;33,6;4;84;174;-1;40;42;no;si;no;442;nd;andaluz/Málaga;10,021;14,162;si;si;;;
+P0652;QMH661(Patient0726);NO_UNAREP;si;55/16;hombre;;3,8;;;82;188;-1;43;37;no;si;Tabique desviado;442;nd;Madrid;8,687;14,932;si;si;;;
+P0653;QMH662(patient0727);NO_UNAREP;si;55/16;hombre;;11,2;15,1;1,3;100;168;-1;49;42;si;si;no;442;nd;andaluz/Málaga;9,447;14,698;si;no;;;
+P0654;QMH663(patient0728);NO_UNAREP;si;55/16;hombre;;8,2;22,1;4,4;83;186;-1;31;38;no;si;cornetes y rinitis alérgica;432;nd;andaluz/Málaga;;;no;no;Error? O Raro ?7,714;9,668;
+P0655;QMH664(patient0729);NO_UNAREP;si;55/16;hombre;;16,7;influencia posicional;;120;180;-1;36;47;antiguo;si;no;442;nd;andaluz/Málaga;10,44;15,423;no;no;;;
+P0656;QMH665(patient0730) Usa CPAP;NO_UNAREP;si;55/16;hombre;;27,9;32,5;27,3;84;196;-1;57;42;no;si;Tabique desviado;442;nd;andaluz/Málaga;10,019;13,726;si;si;;;
+P0657;QMH666(patient0731);NO_UNAREP;si;55/16;hombre;;0;se descarta;;86;180;-1;66;42;no;si;Problemas nasales ocasionales;442;nd;Francés;9,528;14,204;si;si;;;
+P0658;QMH667(patient0732);NO_UNAREP;si;55/16;mujer;;1,3;1,7;1,2;;;;;;si;si;no en la prueba algo resfriada;442;nd;andaluz/Cartagena;9,09;13,724;no;no;;;
+P0659;QMH668(patient0733);NO_UNAREP;si;55/16;hombre;20;8,8;;;110;180;-1;62;44;antiguo;si;Tabique desviado;442;nd;andaluz/Málaga;10,245;15,316;si;no;;;
+P0660;QMH669(patient0734);NO_UNAREP;si;55/16;hombre;;;;;94;186;-1;42;41;no;si;Alergia;442;nd;andaluz/Málaga;9,695;13,499;si;no;1;;
+P0661;QMH670(patient0735);NO_UNAREP;si;55/16;hombre;;15;;;85;162;-1;60;41;no;si;no;443;nd;andaluz/Málaga;9,416;14,586;no;no;1;;
+P0662;QMH671(patient0736) Nuevas preguntas;NO_UNAREP;si;55/16;hombre;;52,6;33,2;63,5;120;193;-1;48;46;no;si;Hipertensión;443;nd;andaluz/Málaga;10,49;15,773;no;no;1;1;
+P0663;QMH672(patient0737);NO_UNAREP;si;55/16;hombre;12;64,3;sin cambios en decúbito lateral;;97;174;-1;55;46;antiguo;si;Tabique desv, cornetes y campanilla grande;440;nd;Zaragoza;9,369;13,598;si;no;1;1;0
+P0664;QMH673(patient0738);NO_UNAREP;si;55/16;mujer;;1;;;;;-1;;;si;si;no;442;nd;andaluz/Málaga;9,074;13,041;si;si;1;0;1
+P0665;QMH674(patient0739);NO_UNAREP;si;55/16;hombre;;17,2;29,3;7,6;94;190;-1;34;41;no;si;no;441;nd;andaluz/Málaga;9,2;14,838;si;no;0;0;0
+P0666;QMH675(patient0740);NO_UNAREP;si;55/16;mujer;;4,8;12;2,5;62;148;-1;54;38;antiguo;si;no;442;nd;Cantabria;8,971;13,002;si;si;0;0;0
+P0667;QMH676(patient0741);NO_UNAREP;si;55/16;hombre;;25;minima influencia posicional;;98;169;-1;38;44;no;si;resfriado al hacer la prueba;442;nd;andaluz/Málaga;10,284;15,003;si;si;1;1;1
+P0668;QMH677(patient0742);NO_UNAREP;si;55/16;hombre;;41,5;59,6;34,4;113;180;-1;44;44;si;si;no;442;nd;andaluz/Málaga;10,112;14,95;si;no;1;0;0
+P0669;QMH678(patient0743);NO_UNAREP;si;55/16;hombre;;2,7;;;85;180;-1;33;40;no;si;no;442;nd;andaluz/Málaga;10,512;15,51;no;si;0;0;1
+P0670;QMH679(patient0744);NO_UNAREP;si;55/16;mujer;;57;minima influencia posicional;;70;168;-1;64;35;antiguo;si;Tabique y rinitis;443;nd;andaluz/Málaga;9,213;14,658;no;no;0;0;1
+P0671;QMH680(patient0745) usa CPAP;NO_UNAREP;si;55/16;hombre;;;;;86;173;-1;53;40;no;si;Asma hipertensión;441;nd;andaluz/Málaga;9,467;13,749;no;no;1;1;1
+P0672;QMH681(patient0746);NO_UNAREP;si;55/16;mujer;;108,6;;;95;163;-1;35;44;antiguo;si;no;445;nd;andaluz/Málaga;9,738;14,409;si;si;1;0;0
+P0673;QMH682(patient0747);NO_UNAREP;si;55/16;mujer;;4,6;1;5,1;105;173;-1;25;40;si;si;Tabique desviado;431;nd;Ruso;10,026;13,378;si;no;0;0;0
+P0674;QMH683(patient0748);NO_UNAREP;si;55/16;hombre;14;33;Decúbito lateral incalculable;;90;179;-1;57;42;no;si;Sinusitis crónica;431;nd;Potugués;9,413;14,447;si;si;0;1;1
+P0675;QMH684(patient0749);NO_UNAREP;si;55/16;mujer;;4,7;5,2;3;73;169;-1;49;34;si;si;Hipertensión;434;nd;andaluz/Málaga;9,177;12,886;si;si;1;1;1
+P0676;QMH685(patient0750);NO_UNAREP;si;55/16;hombre;;27,9;;;75;171;-1;83;40;no;si;Hipertensión;435;nd;andaluz/Málaga;9,813;13,272;si;no;1;1;1
+P0677;QMH686(patient0751);NO_UNAREP;si;55/16;mujer;;36,3;;37,8;82;165;-1;64;39;antiguo;si;Atrofia trompas nariz y faringitis en prueba;436;nd;andaluz/Málaga;9,753;13,455;no;no;1;0;1
+P0678;QMH687(patient0752) usa CPAP;NO_UNAREP;si;55/16;hombre;;;IAH residual 12 estudio hecho con CPAP;;92;163;-1;83;44;antiguo;si;EPOC Hipertensión;442;nd;Argentino;10,043;14,919;si;no;0;1;1
+P0679;QMH688(patient0753) usa CPAP;NO_UNAREP;si;55/16;hombre;;9,2;15,9;7,3;105;180;-1;35;45;no;si;Apnea;443;nd;andaluz/Málaga;10,86;15,019;no;no;1;1;1
+P0680;QMH689(patient0754);NO_UNAREP;si;55/16;hombre;;52,2;53,4;50,3;90;180;-1;50;42;no;si;no;442;nd;Mezcla;10,268;14,383;si;no;1;0;0
+P0681;QMH690(patient0755) usa CPAP;NO_UNAREP;si;55/16;hombre;;;NO disponible;;94;177;-1;44;44;no;si;Apnea;434;nd;andaluz/Málaga;9,181;14,35;no;no;1;1;0
+P0682;QMH691(patient0756);NO_UNAREP;si;55/16;mujer;;5,4;;este sobre todo;66;164;-1;57;35;si;si;Lupus;436;nd;andaluz/Málaga;8,543;11,956;si;si;1;0;1
+P0683;QMH692(patient0757) FOTOS BOCA y RESPIRACIONES PRUEBAS;NO_UNAREP;si;55/16;mujer;;31,9;;;70;163;-1;60;35;antiguo;si;Costipada en prueba;422;nd;andaluz/Málaga;8,535;13,517;no;no;1;1;
+P0684;FOTOS y TUMBADO - patient0758;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0759;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0760;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0761;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0762;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0763;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0764;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0765;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0766;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0767;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0768;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0769;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0770;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0771;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0772;;;;;;;No Disponible; ;;;;;;;;;;;;;;;;;;
+;patient0773;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0774;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0775;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0776;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0777;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0778;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0779;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0780;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0781;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0782;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0783;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0784;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0785;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0786;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0787;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0788;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0789;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0790;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0791;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0792;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0793;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0794;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0795;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0796;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0797;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0798;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0799;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0800;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0801;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0802;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0803;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0804;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0805;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0806;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0807;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0808;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0809;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0810;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0811;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0812;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0813;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0814;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0815;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0816;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0817;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0818;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0819;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0820;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0821;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0822;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0823;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0824;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0825;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0826;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0827;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0828;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0829;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0830;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0831;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0832;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0833;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0834;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0835;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0836;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0837;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0838;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0839;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0840;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0841;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0842;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0843;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0844;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0845;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0846;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0847;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0848;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0849;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0850;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0851;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0852;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0853;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0854;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0855;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0856;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0857;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0858;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0859;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0860;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0861;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0862;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0863;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0864;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0865;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0866;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0867;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0868;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0869;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0870;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0871;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0872;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0873;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0874;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0875;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0876;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0877;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0878;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0879;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0880;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0881;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0882;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0883;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0884;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0885;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0886;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0887;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0888;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0889;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0890;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0891;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0892;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0893;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0894;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0895;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0896;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0897;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0898;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0899;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0900;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0901;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0902;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0903;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0904;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0905;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0906;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0907;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0908;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0909;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0910;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0911;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0912;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0913;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0914;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0915;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0916;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0917;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0918;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0919;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0920;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0921;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0922;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0923;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0924;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0925;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0926;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0927;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0928;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0928;;;;;;;;;;;;;;;;;;;;;;;;;;
+;patient0930;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;La foto de la cavidad bucal del paciente 846 está oscura en el interior de la boca porque no pude usar el flash ya que no tenía a penas batería en mi  movil porque llevaba todo el día fuera de casa.;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+y ayer tuvimos dos, la 827 y el 828. Intenté que la boca estuviese en una posición intermedia al grabar la respiración boca/boca, pero no sé si estará bien de nivel la grabación o si son muy bajas. También  he especificado en las grabaciones cuántas hay de nariz/nariz y cuántas de boca/boca, para que os sea más fácil identificarlas. Y he comentado el tema de las parejas sobre el quedarse pillado, jeje;;;;;;;;;;;;;;;;;;;;;;;;;;;
