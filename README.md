@@ -6,7 +6,7 @@ This repository is a part of Predictive & Descriptive Learning and Machine Learn
 </div>
 
 ## Overview:
-This repository covers the use of different machine learning approaches applied on OSA (Obstructive Sleep Apnea Syndrome) case study, and compare their perfor
+This repository covers the use of different machine learning approaches applied on OSA (Obstructive Sleep Apnea Syndrome) case study, and compare their performance on different metrics:
 - **Regression**: Prediction of AHI (Index of Apnea-Hypopnea), a measure of sleep apnea severity, for each individual.
 - **Classification**: Classification of individuals into OSA and non-OSA cases.
 - **Unsupervised Learning**: Exploration of PCA and Clustering to uncover data characteristics.
